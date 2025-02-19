@@ -1,0 +1,3 @@
+Record=TopLevelDocument|FileName=ratopus.schdoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=ratopus.schdoc|Designator=U_controller|SchDesignator=U_controller|FileName=controller.schdoc|SheetNumber=3|SymbolType=Normal|RawFileName=controller.schdoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=ratopus.schdoc|Designator=U_power_stage|SchDesignator=U_power_stage|FileName=power_stage.schdoc|SheetNumber=2|SymbolType=Normal|RawFileName=power_stage.schdoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

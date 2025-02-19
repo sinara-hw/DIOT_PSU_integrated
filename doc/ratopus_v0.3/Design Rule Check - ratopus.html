@@ -1,0 +1,391 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD17\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">27/03/2019</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">13:38:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:01</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc" class="file"><acronym title="C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc">C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Waived Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">10</td></tr>
+</table>
+</td>
+</table><a name="IDH12XKOJN1N0AK1BEOVDMXWQLVAI1PDMV4MQCKBYWQ3IRO2M2OK"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID20BDT22KPC0TCX5FTKAD5FK4YM4ZG4M2MDHV4AOELAIT0H2SVXOL">Clearance Constraint (Gap=0.25mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDCMTVGPL0P2LDGV1DE3REALT0QQRRKYRPM1WNJCX102CB442ZX5P">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCZYGFXMREE22F2JFWADPKUJMXHNE1FNULVGNGHFPZ10ZHQRXVU0B">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDE0IF101ISBVPBGCQHT0I2ZV455MAXYQN3GHBXDFS3MI2MH3CCNH">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZSMYEI5DY44PHMQPNTGTB1ZYCCVWO3R1MPCM2MJWUVZYHUVUHQZN">Width Constraint (Min=0.25mm) (Max=2.54mm) (Preferred=0.508mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJX3XKHN1SU30JQY4VNZHFTFUSHUEDC0QWVPUHEDTBIJIKOQ1HSXL">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDU13NVIEUXEIKMXH5MEWYNQGKQER1SI3T0SZQOWEICCBCDXCIHVAM">Hole Size Constraint (Min=0.025mm) (Max=3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQLO31MA2T5WLOBAGT3W3NCHKZEMFPNAXAFGZ4AOCXPCFKISAV3CP">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDBGPJ4JIFQ2H2MMCAYC3FB4MYVDCKDJTVGZMGZ1GJ35UHECFXYDPK">Minimum Solder Mask Sliver (Gap=0.03mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5RSYCVMF2NSVLIUZ0A24QQZDJELQWJMEQ5424VDKXLZMNCRJCTTN">Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHZW3YANW15YSKWTR02CXC3S1JVBNW0O1A0ECKD13X04WTBMD5QP">Silk to Silk (Clearance=0.2mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDBAHML4QHOC4XCVOB5MRH223TBP3UTIJMBYY0RNNNYQ53YLKT0TUN">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVYNDWJPNWQNWPRXOJVAUV2JVDEUFS1UCODL1UJPQA02AGRMGTD4L">Height Constraint (Min=0mm) (Max=70mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Waived Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTIJ3G0GJWZ4REB5A4GRUQXMHWJL1GRMRX4NCZCNLYZ2UDFJYIQJE">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDRSQIPYA3TLHWFUSOBZNW2RG2BK2IZQI4DY4SOGOMUNKPU0FICDTP">Minimum Solder Mask Sliver (Gap=0.03mm) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDF5JMOMKTZIJUBM3TJM3SNNFOALFULL2C5IGQE1D2DIFSUM5AVSCI">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">10</td>
+</tr>
+</table><br><a name="IDOU44O1JEJPDMED4UHLT0OLBZSOUWRVCUZQI3WDING0PVIW3JQFVJ"><h2>Rule Violations</h2></a><a name="IDKJUFPH4DMJM2OZDW4XWHY0YQMCJSENOZMLPT4LCUJBJLMLC2EKT"><h2>Waived Violations</h2></a><a name="IDTIJ3G0GJWZ4REB5A4GRUQXMHWJL1GRMRX4NCZCNLYZ2UDFJYIQJE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6414.958mil|Location2.X=6439.373mil|Location1.Y=2191.053mil|Location2.Y=2215.468mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6414.958mil|Location2.X=6439.373mil|Location1.Y=2191.053mil|Location2.Y=2215.468mil|Absolute=True">Short-Circuit Constraint: Between Track (137.25mm,29.85mm)(137.25mm,31mm) on Top Layer And Pad IC1-31(137.25mm,29.85mm) on Top Layer Location : [X = 163.25mm][Y = 55.963mm]</acronym></a><br>Waived by Lalit Patnaik at 26/03/2019 14:14:41<br>Extending pad for ease of soldering.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6561.132mil|Location2.X=6585.547mil|Location1.Y=2143.304mil|Location2.Y=2167.72mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6561.132mil|Location2.X=6585.547mil|Location1.Y=2143.304mil|Location2.Y=2167.72mil|Absolute=True">Short-Circuit Constraint: Between Track (140.85mm,28.75mm)(142mm,28.75mm) on Top Layer And Pad IC1-23(140.85mm,28.75mm) on Top Layer Location : [X = 166.963mm][Y = 54.75mm]</acronym></a><br>Waived by Lalit Patnaik at 26/03/2019 14:14:16<br>Extending pad for ease of soldering.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6561.132mil|Location2.X=6585.547mil|Location1.Y=2123.619mil|Location2.Y=2148.035mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6561.132mil|Location2.X=6585.547mil|Location1.Y=2123.619mil|Location2.Y=2148.035mil|Absolute=True">Short-Circuit Constraint: Between Track (140.85mm,28.25mm)(142mm,28.25mm) on Top Layer And Pad IC1-22(140.85mm,28.25mm) on Top Layer Location : [X = 166.963mm][Y = 54.25mm]</acronym></a><br>Waived by Lalit Patnaik at 26/03/2019 14:13:54<br>Extending pad for ease of soldering.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6533.068mil|Location2.X=6557.483mil|Location1.Y=1997.13mil|Location2.Y=2021.545mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6533.068mil|Location2.X=6557.483mil|Location1.Y=1997.13mil|Location2.Y=2021.545mil|Absolute=True">Short-Circuit Constraint: Between Track (140.25mm,24mm)(140.25mm,25.15mm) on Top Layer And Pad IC1-16(140.25mm,25.15mm) on Top Layer Location : [X = 166.25mm][Y = 51.037mm]</acronym></a><br>Waived by Lalit Patnaik at 26/03/2019 14:12:17<br>Extending pad for ease of soldering.</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDRSQIPYA3TLHWFUSOBZNW2RG2BK2IZQI4DY4SOGOMUNKPU0FICDTP"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Minimum Solder Mask Sliver (Gap=0.03mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6398.883mil|Location2.X=6403.859mil|Location1.Y=2028.804mil|Location2.Y=2034.099mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6398.883mil|Location2.X=6403.859mil|Location1.Y=2028.804mil|Location2.Y=2034.099mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.005mm &lt; 0.03mm) Between Pad IC1-9(136.75mm,25.15mm) on Top Layer And Pad IC1-8(136.15mm,25.75mm) on Top Layer [Top Solder] Mask Sliver [0.005mm]</acronym></a><br>Waived by Lalit Patnaik at 26/03/2019 14:32:12<br>Part of footprint.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6398.883mil|Location2.X=6405.202mil|Location1.Y=2178.043mil|Location2.Y=2183.794mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6398.883mil|Location2.X=6405.202mil|Location1.Y=2178.043mil|Location2.Y=2183.794mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.005mm &lt; 0.03mm) Between Pad IC1-32(136.75mm,29.85mm) on Top Layer And Pad IC1-1(136.15mm,29.25mm) on Top Layer [Top Solder] Mask Sliver [0.005mm]</acronym></a><br>Waived by Lalit Patnaik at 26/03/2019 14:32:56<br>Part of footprint.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6551.442mil|Location2.X=6556.418mil|Location1.Y=2181.363mil|Location2.Y=2186.657mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6551.442mil|Location2.X=6556.418mil|Location1.Y=2181.363mil|Location2.Y=2186.657mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.005mm &lt; 0.03mm) Between Pad IC1-24(140.85mm,29.25mm) on Top Layer And Pad IC1-25(140.25mm,29.85mm) on Top Layer [Top Solder] Mask Sliver [0.005mm]</acronym></a><br>Waived by Lalit Patnaik at 26/03/2019 14:32:48<br>Part of footprint.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6551.442mil|Location2.X=6557.761mil|Location1.Y=2025.484mil|Location2.Y=2031.235mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6551.442mil|Location2.X=6557.761mil|Location1.Y=2025.484mil|Location2.Y=2031.235mil|Absolute=True">Minimum Solder Mask Sliver Constraint: (0.005mm &lt; 0.03mm) Between Pad IC1-16(140.25mm,25.15mm) on Top Layer And Pad IC1-17(140.85mm,25.75mm) on Top Layer [Top Solder] Mask Sliver [0.005mm]</acronym></a><br>Waived by Lalit Patnaik at 26/03/2019 14:32:38<br>Part of footprint.</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDF5JMOMKTZIJUBM3TJM3SNNFOALFULL2C5IGQE1D2DIFSUM5AVSCI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Net Antennae (Tolerance=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6330.162mil|Location2.X=6353.578mil|Location1.Y=2127.406mil|Location2.Y=2161.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6330.162mil|Location2.X=6353.578mil|Location1.Y=2127.406mil|Location2.Y=2161.322mil|Absolute=True">Net Antennae: Track (135mm,28.25mm)(136.15mm,28.25mm) on Top Layer </acronym></a><br>Waived by Lalit Patnaik at 26/03/2019 15:23:29<br>Extending pad for ease of soldering.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6330.162mil|Location2.X=6353.578mil|Location1.Y=2088.035mil|Location2.Y=2121.952mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6330.162mil|Location2.X=6353.578mil|Location1.Y=2088.035mil|Location2.Y=2121.952mil|Absolute=True">Net Antennae: Track (135mm,27.25mm)(136.15mm,27.25mm) on Top Layer </acronym></a><br>Waived by Lalit Patnaik at 26/03/2019 15:23:05<br>Extending pad for ease of soldering.</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

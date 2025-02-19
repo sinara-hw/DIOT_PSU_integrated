@@ -1,0 +1,67 @@
+Protel Design System Design Rule Check
+PCB File : C:\DIOT_RTPS\Design\RaToPUS\ratopus.PcbDoc
+Date     : 27/03/2019
+Time     : 13:38:00
+
+Processing Rule : Clearance Constraint (Gap=0.25mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.25mm) (Max=2.54mm) (Preferred=0.508mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.03mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=70mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Waived Violations Of Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Waived Violation between Short-Circuit Constraint: Between Track (137.25mm,29.85mm)(137.25mm,31mm) on Top Layer And Pad IC1-31(137.25mm,29.85mm) on Top Layer Location : [X = 163.25mm][Y = 55.963mm]Waived by Lalit Patnaik at 26/03/2019 14:14:41Extending pad for ease of soldering.
+   Waived Violation between Short-Circuit Constraint: Between Track (140.85mm,28.75mm)(142mm,28.75mm) on Top Layer And Pad IC1-23(140.85mm,28.75mm) on Top Layer Location : [X = 166.963mm][Y = 54.75mm]Waived by Lalit Patnaik at 26/03/2019 14:14:16Extending pad for ease of soldering.
+   Waived Violation between Short-Circuit Constraint: Between Track (140.85mm,28.25mm)(142mm,28.25mm) on Top Layer And Pad IC1-22(140.85mm,28.25mm) on Top Layer Location : [X = 166.963mm][Y = 54.25mm]Waived by Lalit Patnaik at 26/03/2019 14:13:54Extending pad for ease of soldering.
+   Waived Violation between Short-Circuit Constraint: Between Track (140.25mm,24mm)(140.25mm,25.15mm) on Top Layer And Pad IC1-16(140.25mm,25.15mm) on Top Layer Location : [X = 166.25mm][Y = 51.037mm]Waived by Lalit Patnaik at 26/03/2019 14:12:17Extending pad for ease of soldering.
+Waived Violations :4
+
+Waived Violations Of Rule : Minimum Solder Mask Sliver (Gap=0.03mm) (All),(All)
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.005mm < 0.03mm) Between Pad IC1-9(136.75mm,25.15mm) on Top Layer And Pad IC1-8(136.15mm,25.75mm) on Top Layer [Top Solder] Mask Sliver [0.005mm]Waived by Lalit Patnaik at 26/03/2019 14:32:12Part of footprint.
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.005mm < 0.03mm) Between Pad IC1-32(136.75mm,29.85mm) on Top Layer And Pad IC1-1(136.15mm,29.25mm) on Top Layer [Top Solder] Mask Sliver [0.005mm]Waived by Lalit Patnaik at 26/03/2019 14:32:56Part of footprint.
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.005mm < 0.03mm) Between Pad IC1-24(140.85mm,29.25mm) on Top Layer And Pad IC1-25(140.25mm,29.85mm) on Top Layer [Top Solder] Mask Sliver [0.005mm]Waived by Lalit Patnaik at 26/03/2019 14:32:48Part of footprint.
+   Waived Violation between Minimum Solder Mask Sliver Constraint: (0.005mm < 0.03mm) Between Pad IC1-16(140.25mm,25.15mm) on Top Layer And Pad IC1-17(140.85mm,25.75mm) on Top Layer [Top Solder] Mask Sliver [0.005mm]Waived by Lalit Patnaik at 26/03/2019 14:32:38Part of footprint.
+Waived Violations :4
+
+Waived Violations Of Rule : Net Antennae (Tolerance=0mm) (All)
+   Waived Violation between Net Antennae: Track (135mm,28.25mm)(136.15mm,28.25mm) on Top Layer Waived by Lalit Patnaik at 26/03/2019 15:23:29Extending pad for ease of soldering.
+   Waived Violation between Net Antennae: Track (135mm,27.25mm)(136.15mm,27.25mm) on Top Layer Waived by Lalit Patnaik at 26/03/2019 15:23:05Extending pad for ease of soldering.
+Waived Violations :2
+
+
+Violations Detected : 0
+Waived Violations : 10
+Time Elapsed        : 00:00:01
