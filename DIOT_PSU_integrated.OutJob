@@ -342,7 +342,7 @@ Configuration12_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~T
 OutputType13=Design Rules Check
 OutputName13=Design Rules Check
 OutputCategory13=Validation
-OutputDocumentPath13=EDA-04213-V3-0_pcb.PcbDoc
+OutputDocumentPath13=DIOT_PSU_integrated.PcbDoc
 OutputVariantName13=
 OutputEnabled13=0
 OutputEnabled13_OutputMedium1=0
@@ -361,7 +361,7 @@ Configuration13_Item1=?A
 OutputType14=Differences Report
 OutputName14=Differences Report
 OutputCategory14=Validation
-OutputDocumentPath14=EDA-04213-V3-0_pcb.PcbDoc
+OutputDocumentPath14=DIOT_PSU_integrated.PcbDoc
 OutputVariantName14=
 OutputEnabled14=0
 OutputEnabled14_OutputMedium1=0
@@ -417,7 +417,7 @@ Configuration16_Item1=Bottom Layer=True|Bottom Overlay=False|Bottom Paste=True|B
 OutputType17=AutoCAD dwg/dxf PCB
 OutputName17=AutoCAD dwg/dxf File PCB
 OutputCategory17=Export
-OutputDocumentPath17=EDA-04213-V3-0_pcb.PcbDoc
+OutputDocumentPath17=DIOT_PSU_integrated.PcbDoc
 OutputVariantName17=
 OutputEnabled17=0
 OutputEnabled17_OutputMedium1=0
@@ -435,7 +435,7 @@ Configuration17_Item1=Record=ExportDXFView|ACadVersion=6|UseRoundedTracks=True|C
 OutputType18=ExportSTEP
 OutputName18=Export STEP
 OutputCategory18=Export
-OutputDocumentPath18=EDA-04213-V3-0_pcb.PcbDoc
+OutputDocumentPath18=DIOT_PSU_integrated.PcbDoc
 OutputVariantName18=
 OutputEnabled18=0
 OutputEnabled18_OutputMedium1=0
