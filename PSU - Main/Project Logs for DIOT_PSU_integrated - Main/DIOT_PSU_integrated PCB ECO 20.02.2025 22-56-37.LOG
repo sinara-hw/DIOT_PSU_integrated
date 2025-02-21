@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=P5V0SB Pin=D3-1
-Removed Pin From Net: NetName=P5V0SB Pin=RL1-8
-Removed Pin From Net: NetName=GND Pin=T2-2
-Removed Member From Class: ClassName=DIOT_PSU_integrated Member=D2
-Removed Member From Class: ClassName=DIOT_PSU_integrated Member=D3
-Removed Member From Class: ClassName=DIOT_PSU_integrated Member=J30
-Removed Member From Class: ClassName=DIOT_PSU_integrated Member=P8
-Removed Member From Class: ClassName=DIOT_PSU_integrated Member=RL1
-Removed Member From Class: ClassName=DIOT_PSU_integrated Member=T2

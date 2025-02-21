@@ -1,5 +1,0 @@
-Added Component: Designator=ST1(SCHROFF_PANEL_3HP_8U_CPCIS_AC_PSU)
-Add component (AddParameter): Name = "Manufacturer"; Value = "Schroff"; VariantName = "[No Variations]"
-Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "20848589"; VariantName = "[No Variations]"
-Add component (AddParameter): Name = "Manufacturer Part Number 2"; Value = "20848589"; VariantName = "[No Variations]"
-Added Member To Class: ClassName=DIOT_PSU_Mezzanine Member=Component ST1 SCHROFF_PANEL_3U_8HP
