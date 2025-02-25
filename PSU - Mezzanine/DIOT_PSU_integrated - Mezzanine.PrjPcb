@@ -117,6 +117,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NLROYWNC
 
+[GeneratedDocument1]
+DocumentPath=outputs\Design Rule Check - DIOT_PSU_doutherBoard.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=OHL_License
 Value=OHL-W v2.0+

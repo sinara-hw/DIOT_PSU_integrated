@@ -1,0 +1,127 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\spider\Desktop\git psu\DIOT_PSU_integrated\PSU - Mezzanine\PCB\DIOT_PSU_doutherBoard.PcbDoc
+Date     : 25.02.2025
+Time     : 02:17:34
+
+Processing Rule : Clearance Constraint (Gap=0.305mm) (OnOutside),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (OnMid),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.4mm) (not IsSMTPin and not PadIsPlated),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (OnLayer('Keep-Out Layer')),(HasFootprint('FIDUCIAL_TOP_S200-400') or HasFootprint('FIDUCIAL_TOP_C100-200') or HasFootprint('FIDUCIAL_TOP_S100-200') or  HasFootprint('FIDUCIAL_TOP_C40-120'))
+   Violation between Clearance Constraint: (3.47mm < 4.9mm) Between Pad FTG3-FTG2(0.5mm,56mm) on Top Layer And Track (-3.57mm,-4.35mm)(-3.57mm,93.25mm) on Keep-Out Layer 
+Rule Violations :1
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (Not InNet('CHASSIS')) )
+   Violation between Un-Routed Net Constraint: Net PE Between Track (31.6mm,37.8mm)(37.5mm,37.8mm) on Bottom Layer And Pad B1-1(38mm,55mm) on Multi-Layer 
+Rule Violations :1
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=5mm) (Preferred=0.5mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(InNetClass('FMC_MGT') or InNetClass('SLOT1_MGT') or InNetClass('SLOT2_MGT')  or InNetClass('SLOT3_MGT')  or InNetClass('SLOT4_MGT') or InNetClass('SLOT5_MGT')  or InNetClass('SLOT6_MGT')    or InNetClass('SLOT7_MGT')   or InNetClass('SLOT8_MGT'))
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=0.4mm) (MaxHoleWidth=1mm) (PreferredHoleWidth=0.5mm) (MinWidth=1mm) (MaxWidth=2mm) (PreferedWidth=1mm) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.254mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.381mm) (Max=0.381mm) (Prefered=0.381mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.3mm) (Conductor Width=0.4mm) (Air Gap=0.2mm) (Entries=4) ((AsMM(HoleDiameter)>=1.5) and (AsMM(HoleDiameter)<4))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.5mm) (Air Gap=0.2mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.2mm) (Air Gap=0.2mm) (Entries=4) (AsMM(HoleDiameter)<0.5)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) ((IsVia or InPadClass('Direct')   ))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.3mm) (Air Gap=0.2mm) (Entries=4) ((AsMM(HoleDiameter)>=1) and (AsMM(HoleDiameter)<1.5))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.25mm) (Air Gap=0.2mm) (Entries=4) ((AsMM(HoleDiameter)>=0.5) and (AsMM(HoleDiameter)<1))
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.25mm) (IsVia)
+Rule Violations :0
+
+Processing Rule : Acute Angle Constraint (Minimum=60.000) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.4mm) (Max=5mm) (All)
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (IsThruPin),(IsThruPin)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad and not InPadClass ('Overlay_exceptions')),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.01mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Vias Under SMD Constraint (Allowed=Not Allowed) (All)
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponent('M3') or InComponent('M4') or InComponent('LD1') or InComponent('LD5') or InComponent('LD9') or InComponent('Cage1') or InComponent('HS2') or InComponent('J5') or InComponent('J3')),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 1mm, Vertical Gap = 0.254mm ) (HasCompParameterValue('PressFit','Yes')),(InComponent('No Component')) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = Infinite ) (not InComponentClass('Overlapping') and InComponentClass('Top Side Components')),(InComponentClass('Top Side Components')) 
+   Violation between Component Clearance Constraint: (Collision) Between Small Component B1-Plated Hole (38mm,55mm) on Top Layer And SMT Small Component SCREW1-M2.5x6 (38mm,55mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision) Between Small Component B1-Plated Hole (38mm,55mm) on Top Layer And SMT Small Component WASHER1-D5xd2.7 (38mm,55mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision) Between Small Component B2-Plated Hole (57mm,55mm) on Top Layer And SMT Small Component SCREW2-M2.5x6 (57mm,55mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision) Between Small Component B2-Plated Hole (57mm,55mm) on Top Layer And SMT Small Component WASHER2-D5xd2.7 (57mm,55mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision) Between Small Component B3-Plated Hole (2mm,9mm) on Top Layer And SMT Small Component SCREW3-M2.5x6 (2mm,9mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision) Between Small Component B3-Plated Hole (2mm,9mm) on Top Layer And SMT Small Component WASHER3-D5xd2.7 (2mm,9mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision) Between Small Component B4-Plated Hole (57mm,2.9mm) on Top Layer And SMT Small Component SCREW4-M2.5x6 (57mm,2.9mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision) Between Small Component B4-Plated Hole (57mm,2.9mm) on Top Layer And SMT Small Component WASHER4-D5xd2.7 (57mm,2.9mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision) Between SMT Small Component SCREW1-M2.5x6 (38mm,55mm) on Top Layer And SMT Small Component WASHER1-D5xd2.7 (38mm,55mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision) Between SMT Small Component SCREW2-M2.5x6 (57mm,55mm) on Top Layer And SMT Small Component WASHER2-D5xd2.7 (57mm,55mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision) Between SMT Small Component SCREW3-M2.5x6 (2mm,9mm) on Top Layer And SMT Small Component WASHER3-D5xd2.7 (2mm,9mm) on Top Layer 
+   Violation between Component Clearance Constraint: (Collision) Between SMT Small Component SCREW4-M2.5x6 (57mm,2.9mm) on Top Layer And SMT Small Component WASHER4-D5xd2.7 (57mm,2.9mm) on Top Layer 
+Rule Violations :12
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mm, Vertical Gap = 0mm ) (InComponentClass('NotMounted')),(All) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=2mm) (Prefered=1mm) (OnBottom)
+   Violation between Height Constraint: SMT Small Component FTG2-Use only in PCB (55mm,49mm) on Bottom Layer Actual Height = 14.39mm
+   Violation between Height Constraint: SMT Small Component FTG4-Use only in PCB (13mm,5mm) on Bottom Layer Actual Height = 14.39mm
+Rule Violations :2
+
+Processing Rule : Height Constraint (Min=0mm) (Max=35mm) (Prefered=10mm) (OnTop)
+Rule Violations :0
+
+
+Violations Detected : 16
+Waived Violations : 0
+Time Elapsed        : 00:00:00
