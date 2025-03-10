@@ -118,23 +118,6 @@ GenerateClassCluster=0
 DocumentUniqueId=CJRAFYTD
 
 [Document5]
-DocumentPath=SCH\I_Sense.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MQGURPRF
-
-[Document6]
 DocumentPath=SCH\LED_Bargraph.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WERVEHWA
 
-[Document7]
+[Document6]
 DocumentPath=SCH\PSU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,23 +150,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SGLYRIDU
-
-[Document8]
-DocumentPath=SCH\SB_PSU.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NNMOFNQP
 
 [GeneratedDocument1]
 DocumentPath=outputs\Design Rule Check - DIOT_PSU_integrated.html

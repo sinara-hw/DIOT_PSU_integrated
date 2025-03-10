@@ -67,7 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=PCB\DIOT_PSU_doutherBoard.PcbDoc
+DocumentPath=PCB\DIOT_PSU_Mezzanine.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
