@@ -3,7 +3,7 @@ Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
 ReleasesFolder=
-ChannelDesignatorFormatString=$Component_$RoomName
+ChannelDesignatorFormatString=$Component$ChannelAlpha
 ChannelRoomLevelSeperator=_
 OpenOutputs=0
 ArchiveProject=0
@@ -183,12 +183,12 @@ DocumentPath=outputs\Design Rule Check - DIOT_PSU_integrated.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=OHL_License
-Value=OHL-W v2.0+
-
-[Parameter2]
 Name=wikis
 Value=https://ohwr.org/project/diot-crate-hw/wikis
+
+[Parameter2]
+Name=OHL_License
+Value=OHL-W v2.0+
 
 [Configuration1]
 Name=Default Configuration
