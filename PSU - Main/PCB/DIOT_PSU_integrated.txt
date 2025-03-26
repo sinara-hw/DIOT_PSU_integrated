@@ -1,12 +1,12 @@
 Board Information Report
 Filename     : C:\Users\spider\Desktop\git psu\DIOT_PSU_integrated\PSU - Main\PCB\DIOT_PSU_integrated.PcbDoc
-Date         : 25.02.2025
-Time         : 00:30:52
+Date         : 26.03.2025
+Time         : 03:07:45
 Time Elapsed : 00:00:00
 
 Routing Information
-    Routing completion, 97,63%
-    Connections, 295
-    Connections routed, 288
-    Connections remaining, 7
+    Routing completion, 99,72%
+    Connections, 351
+    Connections routed, 350
+    Connections remaining, 1
 count : 4
