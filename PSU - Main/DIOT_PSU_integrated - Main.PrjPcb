@@ -169,13 +169,48 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ITVQRUCN
 
+[Document8]
+DocumentPath=SCH\ADC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WIASAZWT
+
+[Document9]
+DocumentPath=SCH\IAMP.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FMEPZAHE
+
 [ProjectVariant1]
 UniqueId=0456c8b2-cf49-421c-b103-2886103cf190
 Description=Variant of DIOT_PSU_integrated - Main
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
+VariationCount=2
 Variation1=Designator=R42|UniqueId=\ZWAZQGGF|Kind=1|AlternatePart=
+Variation2=Designator=R43|UniqueId=\AASWHQKE\YVDFSCZU|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -1242,6 +1277,18 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=CH0|NetColor=$006EFF6E
+Net2=NetName=CH1|NetColor=$00FFFF6E
+Net3=NetName=CH2|NetColor=clYellow
+Net4=NetName=CH3|NetColor=$00FF6EFF
+Net5=NetName=i_adc|NetColor=$006E6EFF
+Net6=NetName=Isense1|NetColor=clYellow
+Net7=NetName=Isense2|NetColor=$00FF6EFF
+Net8=NetName=P12V0|NetColor=$006EFF6E
+Net9=NetName=P12V0_RSENS|NetColor=$006E6EFF
+Net10=NetName=P5V0|NetColor=$00FFFF6E
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
