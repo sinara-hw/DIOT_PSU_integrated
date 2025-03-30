@@ -51,6 +51,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=PCB\DIOT_PSU_integrated v1.~(2).PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FGGWHKWQ
+
+[Document2]
 DocumentPath=DIOT_PSU_integrated.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -67,8 +84,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document2]
-DocumentPath=PCB\DIOT_PSU_integrated.PcbDoc
+[Document3]
+DocumentPath=PCB\DIOT_PSU_integrated v1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -84,7 +101,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HYSSMMET
 
-[Document3]
+[Document4]
 DocumentPath=SCH\DIOT_PSU_integrated.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -101,7 +118,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TQWPXFHW
 
-[Document4]
+[Document5]
 DocumentPath=SCH\FAN_Control.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -118,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CJRAFYTD
 
-[Document5]
+[Document6]
 DocumentPath=SCH\LED_Bargraph.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +152,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WERVEHWA
 
-[Document6]
+[Document7]
 DocumentPath=SCH\PSU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,7 +169,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SGLYRIDU
 
-[Document7]
+[Document8]
 DocumentPath=SCH\EEPROM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -169,7 +186,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ITVQRUCN
 
-[Document8]
+[Document9]
 DocumentPath=SCH\ADC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,7 +203,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WIASAZWT
 
-[Document9]
+[Document10]
 DocumentPath=SCH\IAMP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,6 +219,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FMEPZAHE
+
+[Document11]
+DocumentPath=DIOT_PSU_integrated - Main.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueId=0456c8b2-cf49-421c-b103-2886103cf190
@@ -1289,6 +1323,11 @@ Net7=NetName=Isense2|NetColor=$00FF6EFF
 Net8=NetName=P12V0|NetColor=$006EFF6E
 Net9=NetName=P12V0_RSENS|NetColor=$006E6EFF
 Net10=NetName=P5V0|NetColor=$00FFFF6E
+Net11=NetName=PG|NetColor=$00FF6E6E
+Net12=NetName=PRST_N|NetColor=$00FF6EFF
+Net13=NetName=PS_ON_N|NetColor=$006E6EFF
+Net14=NetName=PS-ON|NetColor=$006EFF6E
+Net15=NetName=R\E\S\E\T\|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
