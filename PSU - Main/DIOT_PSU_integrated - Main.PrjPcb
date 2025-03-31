@@ -51,7 +51,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=PCB\DIOT_PSU_integrated v1.~(2).PcbDoc
+DocumentPath=PCB\DIOT_PSU_integrated.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -85,23 +85,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=PCB\DIOT_PSU_integrated v1.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HYSSMMET
-
-[Document4]
 DocumentPath=SCH\DIOT_PSU_integrated.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -118,7 +101,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TQWPXFHW
 
-[Document5]
+[Document4]
 DocumentPath=SCH\FAN_Control.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +118,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CJRAFYTD
 
-[Document6]
+[Document5]
 DocumentPath=SCH\LED_Bargraph.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WERVEHWA
 
-[Document7]
+[Document6]
 DocumentPath=SCH\PSU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -169,7 +152,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SGLYRIDU
 
-[Document8]
+[Document7]
 DocumentPath=SCH\EEPROM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,7 +169,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ITVQRUCN
 
-[Document9]
+[Document8]
 DocumentPath=SCH\ADC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -203,7 +186,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WIASAZWT
 
-[Document10]
+[Document9]
 DocumentPath=SCH\IAMP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -220,7 +203,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FMEPZAHE
 
-[Document11]
+[Document10]
 DocumentPath=DIOT_PSU_integrated - Main.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1

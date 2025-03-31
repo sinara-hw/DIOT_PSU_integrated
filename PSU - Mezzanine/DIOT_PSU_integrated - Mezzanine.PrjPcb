@@ -121,6 +121,10 @@ DocumentUniqueId=NLROYWNC
 DocumentPath=outputs\Design Rule Check - DIOT_PSU_doutherBoard.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=outputs\Design Rule Check - DIOT_PSU_Mezzanine.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=OHL_License
 Value=OHL-W v2.0+
