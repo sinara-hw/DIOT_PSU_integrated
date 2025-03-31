@@ -1,11 +1,10 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\spider\Desktop\git psu\DIOT_PSU_integrated\PSU - Main\PCB\DIOT_PSU_integrated.PcbDoc
-Date     : 31.03.2025
-Time     : 03:26:01
+Date     : 01.04.2025
+Time     : 01:33:53
 
 Processing Rule : Clearance Constraint (Gap=0mm) (OnLayer('Keep-Out Layer')),(HasFootprint('FIDUCIAL_TOP_S200-400') or HasFootprint('FIDUCIAL_TOP_C100-200') or HasFootprint('FIDUCIAL_TOP_S100-200') or  HasFootprint('FIDUCIAL_TOP_C40-120'))
-   Violation between Clearance Constraint: (4.243mm < 4.9mm) Between Pad FTG4-1(200mm,-0.5mm) on Bottom Layer And Track (-2.37mm,-5.55mm)(212.6mm,-5.55mm) on Keep-Out Layer 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.203mm) (OnOutside),(All)
 Rule Violations :0
@@ -68,7 +67,7 @@ Rule Violations :0
 Processing Rule : Pads and Vias to follow the Drill pairs settings
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=0.2mm) (All),(All)
+Processing Rule : Hole To Hole Clearance (Gap=0.3mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (IsThruPin),(IsThruPin)
@@ -108,6 +107,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=20mm) (Prefered=10mm) (OnBott
 Rule Violations :0
 
 
-Violations Detected : 8
+Violations Detected : 7
 Waived Violations : 0
 Time Elapsed        : 00:00:01
