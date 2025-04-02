@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=EDA-04213-V3-0.OutJob
+Name=
 Description=
-TargetOutputMedium=PDF 3D
+TargetOutputMedium=Liste Mat BOM
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=Brother PT-E310BT (Kopia 1)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print SCH.pdf
 OutputMedium1_Type=Publish
@@ -35,12 +35,10 @@ OutputMedium5=Films Gerber/Percages Drl
 OutputMedium5_Type=GeneratedFiles
 OutputMedium6=Fichiers Mounter Top/Bot
 OutputMedium6_Type=GeneratedFiles
-OutputMedium7=ODB++
+OutputMedium7=Export
 OutputMedium7_Type=GeneratedFiles
-OutputMedium8=Export
-OutputMedium8_Type=GeneratedFiles
-OutputMedium9=PDF 3D
-OutputMedium9_Type=Publish
+OutputMedium8=PDF 3D
+OutputMedium8_Type=Publish
 OutputType1=PCB Print
 OutputName1=PCB Prints
 OutputCategory1=Documentation
@@ -55,7 +53,6 @@ OutputEnabled1_OutputMedium5=0
 OutputEnabled1_OutputMedium6=0
 OutputEnabled1_OutputMedium7=0
 OutputEnabled1_OutputMedium8=0
-OutputEnabled1_OutputMedium9=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
@@ -107,7 +104,6 @@ OutputEnabled2_OutputMedium5=5
 OutputEnabled2_OutputMedium6=0
 OutputEnabled2_OutputMedium7=0
 OutputEnabled2_OutputMedium8=0
-OutputEnabled2_OutputMedium9=0
 OutputDefault2=0
 Configuration2_Name1=OutputConfigurationParameter1
 Configuration2_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908293~1,16908294~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=True|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16777217~1,16777218~1,16777219~1,16842751~1,16973831~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=S:\vulliez\EDA-04213-V3-0\PCB-Layout\EDA-04213-V3-0_pcb.PcbDoc
@@ -125,41 +121,28 @@ OutputEnabled3_OutputMedium5=3
 OutputEnabled3_OutputMedium6=0
 OutputEnabled3_OutputMedium7=0
 OutputEnabled3_OutputMedium8=0
-OutputEnabled3_OutputMedium9=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=True|NumberOfDecimals=4|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Record=DrillView|Units=Imperial|ZeroesMode=KeepLeadingAndTrailingZeroes|DocumentPath=S:\vulliez\EDA-04123-V2-0\Schematics\EDA-04123-V2-0.PcbDoc
-OutputType4=BOM_PartType
-OutputName4=Bill of Materials
-OutputCategory4=Report
+OutputType4=Gerber
+OutputName4=Gerber Files - Board
+OutputCategory4=Fabrication
 OutputDocumentPath4=
 OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
-OutputEnabled4_OutputMedium3=1
+OutputEnabled4_OutputMedium3=0
 OutputEnabled4_OutputMedium4=0
-OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium5=2
 OutputEnabled4_OutputMedium6=0
 OutputEnabled4_OutputMedium7=0
 OutputEnabled4_OutputMedium8=0
-OutputEnabled4_OutputMedium9=0
 OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-Configuration4_Name1=ColumnNameFormat
-Configuration4_Item1=CaptionAsName
-Configuration4_Name2=General
-Configuration4_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=G:\Services\Electronics\EM\Software_tools\BE_Altium\Templates\BOM\CERN-AltiumMat Template.xltm|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1920|FormHeight=1202|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
-Configuration4_Name3=GroupOrder
-Configuration4_Item3=Part Number=True|Mounted=True|Socket=True
-Configuration4_Name4=SortOrder
-Configuration4_Item4=Designator=Up
-Configuration4_Name5=VisibleOrder
-Configuration4_Item5=Manufacturer=20|Voltage=20|Designator=57|Quantity=20|Part Description=20|Status=20|Footprint=20|Library Name=20|Mounted=20|Part Number=20|Pins=38|SMD=20|Socket=20|Title2=20|Component Kind=20|Component Type=20|SCEM=20|HelpURL=20|Manufacturer Part Number=20|Value=20|Title=20|Database Table Name=20|Case=20|ClassName=20|Device=20|Manufacturer1 Example=20|Manufacturer1 Part Number=20|Power=20|TC=20|Tolerance=20|Pin Count=20|Bonding=20|PressFit=20|Sense=100|Comment=100|Sense Comment=100|Status Comment=100|ComponentLink1URL=100
-Configuration4_Name6=VisibleOrder_Flat
-Configuration4_Item6=Manufacturer=20|Voltage=20|Designator=57|Quantity=20|Part Description=20|Status=20|Footprint=20|Library Name=20|Mounted=20|Part Number=20|Pins=38|SMD=20|Socket=20|Title2=20|Component Kind=20|Component Type=20|SCEM=20|HelpURL=20|Manufacturer Part Number=20|Value=20|Title=20|Database Table Name=20|Case=20|ClassName=20|Device=20|Manufacturer1 Example=20|Manufacturer1 Part Number=20|Power=20|TC=20|Tolerance=20|Pin Count=20|Bonding=20|PressFit=20|Sense=100|Comment=100|Sense Comment=100|Status Comment=100|ComponentLink1URL=100
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=S:\vulliez\EDA-04490-V1-0\PCB-Layout\EDA-04490-V1-0_pcb.PcbDoc
 OutputType5=Gerber
-OutputName5=Gerber Files - Board
+OutputName5=Gerber Files - Mask
 OutputCategory5=Fabrication
 OutputDocumentPath5=
 OutputVariantName5=
@@ -168,36 +151,47 @@ OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=0
-OutputEnabled5_OutputMedium5=2
+OutputEnabled5_OutputMedium5=1
 OutputEnabled5_OutputMedium6=0
 OutputEnabled5_OutputMedium7=0
 OutputEnabled5_OutputMedium8=0
-OutputEnabled5_OutputMedium9=0
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
-Configuration5_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=S:\vulliez\EDA-04490-V1-0\PCB-Layout\EDA-04490-V1-0_pcb.PcbDoc
-OutputType6=Gerber
-OutputName6=Gerber Files - Mask
-OutputCategory6=Fabrication
-OutputDocumentPath6=
+Configuration5_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1,16908293~1,16908294~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973834~1,16973835~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=S:\vulliez\EDA-04816-V1-0\PCB-Layout\EDA-04816-V1-0_pcb.PcbDoc
+OutputType6=BOM_PartType
+OutputName6=BOM - PSU
+OutputCategory6=Report
+OutputDocumentPath6=DIOT_PSU_integrated.PcbDoc
 OutputVariantName6=
-OutputEnabled6=0
+OutputEnabled6=1
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
-OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium3=1
 OutputEnabled6_OutputMedium4=0
-OutputEnabled6_OutputMedium5=1
+OutputEnabled6_OutputMedium5=0
 OutputEnabled6_OutputMedium6=0
 OutputEnabled6_OutputMedium7=0
 OutputEnabled6_OutputMedium8=0
-OutputEnabled6_OutputMedium9=0
 OutputDefault6=0
-Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1,16908293~1,16908294~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973834~1,16973835~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=S:\vulliez\EDA-04816-V1-0\PCB-Layout\EDA-04816-V1-0_pcb.PcbDoc
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration6_Name1=ColumnNameFormat
+Configuration6_Item1=CaptionAsName
+Configuration6_Name2=General
+Configuration6_Item2=OpenExported=True|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=G:\Services\Electronics\DEM\BE\DocsBE\Altium\Templates\BOM\CERN-AltiumMat Template.xlt|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=2129|FormHeight=1318|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|BomSetName=
+Configuration6_Name3=GroupOrder
+Configuration6_Item3=Part Number=True|Manufacturer Part Number=True
+Configuration6_Name4=OutputConfigurationParameter1
+Configuration6_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|DocumentPath=[Project]
+Configuration6_Name5=SortOrder
+Configuration6_Item5=Manufacturer Part Number=Down
+Configuration6_Name6=VisibleOrder
+Configuration6_Item6=Designator=100|Part Description=300|Manufacturer=258|Manufacturer Part Number=367|Part Number=245
+Configuration6_Name7=VisibleOrder_Flat
+Configuration6_Item7=Designator=100|Part Description=300|Manufacturer=258|Manufacturer Part Number=367|Part Number=245
 OutputType7=BOM_PartType
-OutputName7=New Components BOM
+OutputName7=BOM - MEZ
 OutputCategory7=Report
-OutputDocumentPath7=
+OutputDocumentPath7=DIOT_PSU_integrated.PcbDoc
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
@@ -208,23 +202,22 @@ OutputEnabled7_OutputMedium5=0
 OutputEnabled7_OutputMedium6=0
 OutputEnabled7_OutputMedium7=0
 OutputEnabled7_OutputMedium8=0
-OutputEnabled7_OutputMedium9=0
 OutputDefault7=0
 PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration7_Name1=ColumnNameFormat
 Configuration7_Item1=CaptionAsName
-Configuration7_Name2=Filter
-Configuration7_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
-Configuration7_Name3=General
-Configuration7_Item3=OpenExported=True|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=G:\Services\Electronics\DEM\BE\DocsBE\Altium\Templates\BOM\CERN-AltiumMat Template.xlt|BatchMode=5|FormWidth=972|FormHeight=1007|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
-Configuration7_Name4=GroupOrder
-Configuration7_Item4=Part Number=True
-Configuration7_Name5=OutputConfigurationParameter1
-Configuration7_Item5=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
-Configuration7_Name6=SortOrder
-Configuration7_Item6=Designator=Up|Comment=Up|Footprint=Up
-Configuration7_Name7=VisibleOrder
-Configuration7_Item7=Author=100|CreateDate=100|Footprint=100|Library Name=100|Part Description=100|Part Number=100|HelpURL=100|Manufacturer=100|Manufacturer Part Number=100|Database Table Name=100
+Configuration7_Name2=General
+Configuration7_Item2=OpenExported=True|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=G:\Services\Electronics\DEM\BE\DocsBE\Altium\Templates\BOM\CERN-AltiumMat Template.xlt|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=2129|FormHeight=1318|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|BomSetName=
+Configuration7_Name3=GroupOrder
+Configuration7_Item3=Part Number=True|Manufacturer Part Number=True
+Configuration7_Name4=OutputConfigurationParameter1
+Configuration7_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|DocumentPath=[Project]
+Configuration7_Name5=SortOrder
+Configuration7_Item5=Manufacturer Part Number=Down
+Configuration7_Name6=VisibleOrder
+Configuration7_Item6=Designator=100|Part Description=300|Manufacturer=258|Manufacturer Part Number=367|Part Number=245
+Configuration7_Name7=VisibleOrder_Flat
+Configuration7_Item7=Designator=100|Part Description=300|Manufacturer=258|Manufacturer Part Number=367|Part Number=245
 OutputType8=BOM_PartType
 OutputName8=Mounter
 OutputCategory8=Report
@@ -239,7 +232,6 @@ OutputEnabled8_OutputMedium5=0
 OutputEnabled8_OutputMedium6=1
 OutputEnabled8_OutputMedium7=0
 OutputEnabled8_OutputMedium8=0
-OutputEnabled8_OutputMedium9=0
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration8_Name1=ColumnNameFormat
@@ -270,7 +262,6 @@ OutputEnabled9_OutputMedium5=0
 OutputEnabled9_OutputMedium6=0
 OutputEnabled9_OutputMedium7=0
 OutputEnabled9_OutputMedium8=0
-OutputEnabled9_OutputMedium9=0
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration9_Name1=Filter
@@ -299,12 +290,11 @@ OutputEnabled10_OutputMedium5=0
 OutputEnabled10_OutputMedium6=2
 OutputEnabled10_OutputMedium7=0
 OutputEnabled10_OutputMedium8=0
-OutputEnabled10_OutputMedium9=0
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=S:\vulliez\EDA-04490-V1-0\PCB-Layout\EDA-04490-V1-0_pcb.PcbDoc
-OutputType11=ODB
-OutputName11=ODB++ Files
+OutputType11=Gerber
+OutputName11=Gerber Files - Panel
 OutputCategory11=Fabrication
 OutputDocumentPath11=
 OutputVariantName11=
@@ -315,32 +305,31 @@ OutputEnabled11_OutputMedium3=0
 OutputEnabled11_OutputMedium4=0
 OutputEnabled11_OutputMedium5=0
 OutputEnabled11_OutputMedium6=0
-OutputEnabled11_OutputMedium7=1
+OutputEnabled11_OutputMedium7=0
 OutputEnabled11_OutputMedium8=0
-OutputEnabled11_OutputMedium9=0
 OutputDefault11=0
 Configuration11_Name1=OutputConfigurationParameter1
-Configuration11_Item1=Compression_None=True|Compression_tar_tgz=False|Compression_zip=False|DifferentFootprints=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=True|MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|Plot_V7_1=True|Plot_V7_1_name=Mechanical Layer 21|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPair0_Plot=False|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePair0_Plot=False|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=True|PlotMechanical10Plot=True|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=True|PlotMechanical14Plot=True|PlotMechanical15Plot=True|PlotMechanical16Plot=True|PlotMechanical1Plot=True|PlotMechanical2Plot=True|PlotMechanical3Plot=True|PlotMechanical4Plot=True|PlotMechanical5Plot=True|PlotMechanical6Plot=True|PlotMechanical7Plot=True|PlotMechanical8Plot=True|PlotMechanical9Plot=True|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=True|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=True|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPair0_Plot=True|PlotNPTHPairs=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPair0_Plot=True|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|Record=ODBView|ToolsByDrillSymbols=False|Units=Imperial|DocumentPath=S:\billerea\EDA-04213-V3-0\project\PCB-Layout\EDA-04213-V3-0_pcb.PcbDoc
-OutputType12=Gerber
-OutputName12=Gerber Files - Panel
-OutputCategory12=Fabrication
-OutputDocumentPath12=
+Configuration11_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908294~1,16908298~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908297~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|DocumentPath=S:\vulliez\EDA-04490-V1-0\PCB-Layout\EDA-04490-V1-0_pcb.PcbDoc
+OutputType12=Design Rules Check
+OutputName12=Design Rules Check
+OutputCategory12=Validation
+OutputDocumentPath12=DIOT_PSU_integrated.PcbDoc
 OutputVariantName12=
 OutputEnabled12=0
 OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=0
-OutputEnabled12_OutputMedium4=0
+OutputEnabled12_OutputMedium4=1
 OutputEnabled12_OutputMedium5=0
 OutputEnabled12_OutputMedium6=0
 OutputEnabled12_OutputMedium7=0
 OutputEnabled12_OutputMedium8=0
-OutputEnabled12_OutputMedium9=0
 OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration12_Name1=OutputConfigurationParameter1
-Configuration12_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908294~1,16908298~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=True|LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908297~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|DocumentPath=S:\vulliez\EDA-04490-V1-0\PCB-Layout\EDA-04490-V1-0_pcb.PcbDoc
-OutputType13=Design Rules Check
-OutputName13=Design Rules Check
+Configuration12_Item1=?A
+OutputType13=Differences Report
+OutputName13=Differences Report
 OutputCategory13=Validation
 OutputDocumentPath13=DIOT_PSU_integrated.PcbDoc
 OutputVariantName13=
@@ -348,37 +337,35 @@ OutputEnabled13=0
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=0
-OutputEnabled13_OutputMedium4=1
+OutputEnabled13_OutputMedium4=2
 OutputEnabled13_OutputMedium5=0
 OutputEnabled13_OutputMedium6=0
 OutputEnabled13_OutputMedium7=0
 OutputEnabled13_OutputMedium8=0
-OutputEnabled13_OutputMedium9=0
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration13_Name1=OutputConfigurationParameter1
-Configuration13_Item1=?A
-OutputType14=Differences Report
-OutputName14=Differences Report
+Configuration13_Item1=DifferenceLevel1=1|DifferenceLevel10=1|DifferenceLevel11=1|DifferenceLevel12=1|DifferenceLevel13=1|DifferenceLevel14=1|DifferenceLevel15=1|DifferenceLevel16=1|DifferenceLevel17=1|DifferenceLevel18=1|DifferenceLevel19=1|DifferenceLevel2=1|DifferenceLevel20=1|DifferenceLevel21=1|DifferenceLevel22=1|DifferenceLevel23=1|DifferenceLevel24=1|DifferenceLevel25=1|DifferenceLevel26=1|DifferenceLevel27=1|DifferenceLevel28=1|DifferenceLevel29=1|DifferenceLevel3=1|DifferenceLevel30=1|DifferenceLevel31=1|DifferenceLevel32=1|DifferenceLevel33=1|DifferenceLevel34=1|DifferenceLevel35=1|DifferenceLevel36=1|DifferenceLevel37=1|DifferenceLevel38=1|DifferenceLevel39=1|DifferenceLevel4=1|DifferenceLevel40=1|DifferenceLevel5=1|DifferenceLevel6=1|DifferenceLevel7=1|DifferenceLevel8=1|DifferenceLevel9=1|Record=DiffReportView
+OutputType14=Electrical Rules Check
+OutputName14=Electrical Rules Check
 OutputCategory14=Validation
-OutputDocumentPath14=DIOT_PSU_integrated.PcbDoc
+OutputDocumentPath14=
 OutputVariantName14=
 OutputEnabled14=0
 OutputEnabled14_OutputMedium1=0
 OutputEnabled14_OutputMedium2=0
 OutputEnabled14_OutputMedium3=0
-OutputEnabled14_OutputMedium4=2
+OutputEnabled14_OutputMedium4=3
 OutputEnabled14_OutputMedium5=0
 OutputEnabled14_OutputMedium6=0
 OutputEnabled14_OutputMedium7=0
 OutputEnabled14_OutputMedium8=0
-OutputEnabled14_OutputMedium9=0
 OutputDefault14=0
 PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration14_Name1=OutputConfigurationParameter1
-Configuration14_Item1=DifferenceLevel1=1|DifferenceLevel10=1|DifferenceLevel11=1|DifferenceLevel12=1|DifferenceLevel13=1|DifferenceLevel14=1|DifferenceLevel15=1|DifferenceLevel16=1|DifferenceLevel17=1|DifferenceLevel18=1|DifferenceLevel19=1|DifferenceLevel2=1|DifferenceLevel20=1|DifferenceLevel21=1|DifferenceLevel22=1|DifferenceLevel23=1|DifferenceLevel24=1|DifferenceLevel25=1|DifferenceLevel26=1|DifferenceLevel27=1|DifferenceLevel28=1|DifferenceLevel29=1|DifferenceLevel3=1|DifferenceLevel30=1|DifferenceLevel31=1|DifferenceLevel32=1|DifferenceLevel33=1|DifferenceLevel34=1|DifferenceLevel35=1|DifferenceLevel36=1|DifferenceLevel37=1|DifferenceLevel38=1|DifferenceLevel39=1|DifferenceLevel4=1|DifferenceLevel40=1|DifferenceLevel5=1|DifferenceLevel6=1|DifferenceLevel7=1|DifferenceLevel8=1|DifferenceLevel9=1|Record=DiffReportView
-OutputType15=Electrical Rules Check
-OutputName15=Electrical Rules Check
+Configuration14_Item1=ERCClassColumnOrder=0|ERCClassColumnSort=1|ERCClassColumnVisibility=True|ERCConnectionMatrixL1=NNNNNNNNNNNWNNNWE|ERCConnectionMatrixL10=NWNNNNNENNEWNNEWN|ERCConnectionMatrixL11=NNENNNNEEENWNENWN|ERCConnectionMatrixL12=WWWWNWWNWWWNWWWNN|ERCConnectionMatrixL13=NNNNNNNNNNNWNNNWW|ERCConnectionMatrixL14=NWEENEEEENEWNEEWW|ERCConnectionMatrixL15=NNENNNNEEENWNENWW|ERCConnectionMatrixL16=WWWWNWWNWWWNWWWNW|ERCConnectionMatrixL17=ENNNNNNEWNNNWWWWN|ERCConnectionMatrixL2=NNWNNNNWWWNWNWNWN|ERCConnectionMatrixL3=NWEENEEEENEWNEEWN|ERCConnectionMatrixL4=NNENNNWEENNWNENWN|ERCConnectionMatrixL5=NNNNNNNNNNNNNNNNN|ERCConnectionMatrixL6=NNENNNNEENNWNENWN|ERCConnectionMatrixL7=NNEWNNWEENNWNENWN|ERCConnectionMatrixL8=NWEENEENEEENNEENE|ERCConnectionMatrixL9=NWEENEEEENEWNEEWW|ERCDocumentColumnOrder=1|ERCDocumentColumnSort=0|ERCDocumentColumnVisibility=True|ERCMessageColumnOrder=2|ERCMessageColumnSort=0|ERCMessageColumnVisibility=True|ERCReportGrouping=2|ERCReportMode=0|ERCReportSuppressedErrors=True|ERCType1=1|ERCType10=1|ERCType100=2|ERCType101=1|ERCType102=2|ERCType103=2|ERCType104=1|ERCType105=2|ERCType106=2|ERCType107=2|ERCType108=2|ERCType109=1|ERCType11=2|ERCType110=1|ERCType111=1|ERCType112=1|ERCType113=1|ERCType12=2|ERCType13=2|ERCType14=1|ERCType15=1|ERCType16=1|ERCType17=1|ERCType18=1|ERCType19=1|ERCType2=1|ERCType20=1|ERCType21=1|ERCType22=1|ERCType23=1|ERCType24=1|ERCType25=2|ERCType26=2|ERCType27=2|ERCType28=1|ERCType29=1|ERCType3=2|ERCType30=1|ERCType31=1|ERCType32=2|ERCType33=2|ERCType34=2|ERCType35=1|ERCType36=2|ERCType37=1|ERCType38=2|ERCType39=2|ERCType4=1|ERCType40=2|ERCType41=0|ERCType42=2|ERCType43=1|ERCType44=1|ERCType45=2|ERCType46=1|ERCType47=2|ERCType48=2|ERCType49=1|ERCType5=2|ERCType50=2|ERCType51=1|ERCType52=1|ERCType53=1|ERCType54=1|ERCType55=1|ERCType56=2|ERCType57=1|ERCType58=1|ERCType59=2|ERCType6=2|ERCType60=1|ERCType61=2|ERCType62=2|ERCType63=1|ERCType64=0|ERCType65=2|ERCType66=3|ERCType67=2|ERCType68=2|ERCType69=1|ERCType7=1|ERCType70=2|ERCType71=2|ERCType72=2|ERCType73=2|ERCType74=1|ERCType75=2|ERCType76=1|ERCType77=1|ERCType78=1|ERCType79=1|ERCType8=1|ERCType80=2|ERCType81=3|ERCType82=3|ERCType83=3|ERCType84=3|ERCType85=3|ERCType86=2|ERCType87=2|ERCType88=2|ERCType89=1|ERCType9=1|ERCType90=1|ERCType91=3|ERCType92=3|ERCType93=2|ERCType94=2|ERCType95=2|ERCType96=2|ERCType97=2|ERCType98=0|ERCType99=1|ERCValidationErrorLevel=0|Record=ERCReportView
+OutputType15=Footprint Comparison Report
+OutputName15=Footprint Comparison Report
 OutputCategory15=Validation
 OutputDocumentPath15=
 OutputVariantName15=
@@ -386,36 +373,33 @@ OutputEnabled15=0
 OutputEnabled15_OutputMedium1=0
 OutputEnabled15_OutputMedium2=0
 OutputEnabled15_OutputMedium3=0
-OutputEnabled15_OutputMedium4=3
+OutputEnabled15_OutputMedium4=4
 OutputEnabled15_OutputMedium5=0
 OutputEnabled15_OutputMedium6=0
 OutputEnabled15_OutputMedium7=0
 OutputEnabled15_OutputMedium8=0
-OutputEnabled15_OutputMedium9=0
 OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration15_Name1=OutputConfigurationParameter1
-Configuration15_Item1=ERCClassColumnOrder=0|ERCClassColumnSort=1|ERCClassColumnVisibility=True|ERCConnectionMatrixL1=NNNNNNNNNNNWNNNWE|ERCConnectionMatrixL10=NWNNNNNENNEWNNEWN|ERCConnectionMatrixL11=NNENNNNEEENWNENWN|ERCConnectionMatrixL12=WWWWNWWNWWWNWWWNN|ERCConnectionMatrixL13=NNNNNNNNNNNWNNNWW|ERCConnectionMatrixL14=NWEENEEEENEWNEEWW|ERCConnectionMatrixL15=NNENNNNEEENWNENWW|ERCConnectionMatrixL16=WWWWNWWNWWWNWWWNW|ERCConnectionMatrixL17=ENNNNNNEWNNNWWWWN|ERCConnectionMatrixL2=NNWNNNNWWWNWNWNWN|ERCConnectionMatrixL3=NWEENEEEENEWNEEWN|ERCConnectionMatrixL4=NNENNNWEENNWNENWN|ERCConnectionMatrixL5=NNNNNNNNNNNNNNNNN|ERCConnectionMatrixL6=NNENNNNEENNWNENWN|ERCConnectionMatrixL7=NNEWNNWEENNWNENWN|ERCConnectionMatrixL8=NWEENEENEEENNEENE|ERCConnectionMatrixL9=NWEENEEEENEWNEEWW|ERCDocumentColumnOrder=1|ERCDocumentColumnSort=0|ERCDocumentColumnVisibility=True|ERCMessageColumnOrder=2|ERCMessageColumnSort=0|ERCMessageColumnVisibility=True|ERCReportGrouping=2|ERCReportMode=0|ERCReportSuppressedErrors=True|ERCType1=1|ERCType10=1|ERCType100=2|ERCType101=1|ERCType102=2|ERCType103=2|ERCType104=1|ERCType105=2|ERCType106=2|ERCType107=2|ERCType108=2|ERCType109=1|ERCType11=2|ERCType110=1|ERCType111=1|ERCType112=1|ERCType113=1|ERCType12=2|ERCType13=2|ERCType14=1|ERCType15=1|ERCType16=1|ERCType17=1|ERCType18=1|ERCType19=1|ERCType2=1|ERCType20=1|ERCType21=1|ERCType22=1|ERCType23=1|ERCType24=1|ERCType25=2|ERCType26=2|ERCType27=2|ERCType28=1|ERCType29=1|ERCType3=2|ERCType30=1|ERCType31=1|ERCType32=2|ERCType33=2|ERCType34=2|ERCType35=1|ERCType36=2|ERCType37=1|ERCType38=2|ERCType39=2|ERCType4=1|ERCType40=2|ERCType41=0|ERCType42=2|ERCType43=1|ERCType44=1|ERCType45=2|ERCType46=1|ERCType47=2|ERCType48=2|ERCType49=1|ERCType5=2|ERCType50=2|ERCType51=1|ERCType52=1|ERCType53=1|ERCType54=1|ERCType55=1|ERCType56=2|ERCType57=1|ERCType58=1|ERCType59=2|ERCType6=2|ERCType60=1|ERCType61=2|ERCType62=2|ERCType63=1|ERCType64=0|ERCType65=2|ERCType66=3|ERCType67=2|ERCType68=2|ERCType69=1|ERCType7=1|ERCType70=2|ERCType71=2|ERCType72=2|ERCType73=2|ERCType74=1|ERCType75=2|ERCType76=1|ERCType77=1|ERCType78=1|ERCType79=1|ERCType8=1|ERCType80=2|ERCType81=3|ERCType82=3|ERCType83=3|ERCType84=3|ERCType85=3|ERCType86=2|ERCType87=2|ERCType88=2|ERCType89=1|ERCType9=1|ERCType90=1|ERCType91=3|ERCType92=3|ERCType93=2|ERCType94=2|ERCType95=2|ERCType96=2|ERCType97=2|ERCType98=0|ERCType99=1|ERCValidationErrorLevel=0|Record=ERCReportView
-OutputType16=Footprint Comparison Report
-OutputName16=Footprint Comparison Report
-OutputCategory16=Validation
-OutputDocumentPath16=
+Configuration15_Item1=Bottom Layer=True|Bottom Overlay=False|Bottom Paste=True|Bottom Solder=True|Corners=True|Drill Drawing=True|Drill Guide=True|Keep-Out Layer=True|L2_GND=True|L3_PWR=True|Mechanical 1=True|Mechanical 13=False|Mechanical 14=False|Mechanical 15=True|Mechanical 16=True|Mechanical 2=True|Mechanical 3=True|Mechanical 4=True|Multi-Layer=True|Notvisible=False|Panelisation=True|Panelisation2=True|Record=TUpdateFromPCBLibrariesSettings|Title Block=True|Top Layer=True|Top Overlay=False|Top Paste=True|Top Solder=True
+OutputType16=AutoCAD dwg/dxf PCB
+OutputName16=AutoCAD dwg/dxf File PCB
+OutputCategory16=Export
+OutputDocumentPath16=DIOT_PSU_integrated.PcbDoc
 OutputVariantName16=
 OutputEnabled16=0
 OutputEnabled16_OutputMedium1=0
 OutputEnabled16_OutputMedium2=0
 OutputEnabled16_OutputMedium3=0
-OutputEnabled16_OutputMedium4=4
+OutputEnabled16_OutputMedium4=0
 OutputEnabled16_OutputMedium5=0
 OutputEnabled16_OutputMedium6=0
-OutputEnabled16_OutputMedium7=0
+OutputEnabled16_OutputMedium7=2
 OutputEnabled16_OutputMedium8=0
-OutputEnabled16_OutputMedium9=0
 OutputDefault16=0
 Configuration16_Name1=OutputConfigurationParameter1
-Configuration16_Item1=Bottom Layer=True|Bottom Overlay=False|Bottom Paste=True|Bottom Solder=True|Corners=True|Drill Drawing=True|Drill Guide=True|Keep-Out Layer=True|L2_GND=True|L3_PWR=True|Mechanical 1=True|Mechanical 13=False|Mechanical 14=False|Mechanical 15=True|Mechanical 16=True|Mechanical 2=True|Mechanical 3=True|Mechanical 4=True|Multi-Layer=True|Notvisible=False|Panelisation=True|Panelisation2=True|Record=TUpdateFromPCBLibrariesSettings|Title Block=True|Top Layer=True|Top Overlay=False|Top Paste=True|Top Solder=True
-OutputType17=AutoCAD dwg/dxf PCB
-OutputName17=AutoCAD dwg/dxf File PCB
+Configuration16_Item1=Record=ExportDXFView|ACadVersion=6|UseRoundedTracks=True|Components=1|HoleMode=1|Units=1|OutputFormat=0|OnlyVisibleLayers=False|ZeroWidthLines=1
+OutputType17=ExportSTEP
+OutputName17=Export STEP
 OutputCategory17=Export
 OutputDocumentPath17=DIOT_PSU_integrated.PcbDoc
 OutputVariantName17=
@@ -426,52 +410,49 @@ OutputEnabled17_OutputMedium3=0
 OutputEnabled17_OutputMedium4=0
 OutputEnabled17_OutputMedium5=0
 OutputEnabled17_OutputMedium6=0
-OutputEnabled17_OutputMedium7=0
-OutputEnabled17_OutputMedium8=2
-OutputEnabled17_OutputMedium9=0
+OutputEnabled17_OutputMedium7=1
+OutputEnabled17_OutputMedium8=0
 OutputDefault17=0
 Configuration17_Name1=OutputConfigurationParameter1
-Configuration17_Item1=Record=ExportDXFView|ACadVersion=6|UseRoundedTracks=True|Components=1|HoleMode=1|Units=1|OutputFormat=0|OnlyVisibleLayers=False|ZeroWidthLines=1
-OutputType18=ExportSTEP
-OutputName18=Export STEP
-OutputCategory18=Export
-OutputDocumentPath18=DIOT_PSU_integrated.PcbDoc
+Configuration17_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ComponentSuffixType=0|ComponentSuffix=
+OutputType18=Schematic Print
+OutputName18=Schematic Prints
+OutputCategory18=Documentation
+OutputDocumentPath18=[Project Physical Documents]
 OutputVariantName18=
 OutputEnabled18=0
-OutputEnabled18_OutputMedium1=0
+OutputEnabled18_OutputMedium1=1
 OutputEnabled18_OutputMedium2=0
 OutputEnabled18_OutputMedium3=0
 OutputEnabled18_OutputMedium4=0
 OutputEnabled18_OutputMedium5=0
 OutputEnabled18_OutputMedium6=0
 OutputEnabled18_OutputMedium7=0
-OutputEnabled18_OutputMedium8=1
-OutputEnabled18_OutputMedium9=0
+OutputEnabled18_OutputMedium8=0
 OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration18_Name1=OutputConfigurationParameter1
-Configuration18_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ComponentSuffixType=0|ComponentSuffix=
-OutputType19=Schematic Print
-OutputName19=Schematic Prints
-OutputCategory19=Documentation
-OutputDocumentPath19=[Project Physical Documents]
+Configuration18_Item1=Record=SchPrintView|ShowNoERC=False|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=True|ExpandSheetNum=True|ExpandDocNum=True|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=[Project Physical Documents]
+OutputType19=Gerber
+OutputName19=Gerber Files - Drill
+OutputCategory19=Fabrication
+OutputDocumentPath19=
 OutputVariantName19=
 OutputEnabled19=0
-OutputEnabled19_OutputMedium1=1
+OutputEnabled19_OutputMedium1=0
 OutputEnabled19_OutputMedium2=0
 OutputEnabled19_OutputMedium3=0
 OutputEnabled19_OutputMedium4=0
-OutputEnabled19_OutputMedium5=0
+OutputEnabled19_OutputMedium5=4
 OutputEnabled19_OutputMedium6=0
 OutputEnabled19_OutputMedium7=0
 OutputEnabled19_OutputMedium8=0
-OutputEnabled19_OutputMedium9=0
 OutputDefault19=0
-PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 Configuration19_Name1=OutputConfigurationParameter1
-Configuration19_Item1=Record=SchPrintView|ShowNoERC=False|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=True|ExpandPort=True|ExpandSheetNum=True|ExpandDocNum=True|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=[Project Physical Documents]
-OutputType20=Gerber
-OutputName20=Gerber Files - Drill
-OutputCategory20=Fabrication
+Configuration19_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1,16908290~1,16908293~1,16908294~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=S:\vulliez\EDA-04490-V1-0\PCB-Layout\EDA-04490-V1-0_pcb.PcbDoc
+OutputType20=PDF3D
+OutputName20=PDF3D
+OutputCategory20=Documentation
 OutputDocumentPath20=
 OutputVariantName20=
 OutputEnabled20=0
@@ -479,20 +460,20 @@ OutputEnabled20_OutputMedium1=0
 OutputEnabled20_OutputMedium2=0
 OutputEnabled20_OutputMedium3=0
 OutputEnabled20_OutputMedium4=0
-OutputEnabled20_OutputMedium5=4
+OutputEnabled20_OutputMedium5=0
 OutputEnabled20_OutputMedium6=0
 OutputEnabled20_OutputMedium7=0
-OutputEnabled20_OutputMedium8=0
-OutputEnabled20_OutputMedium9=0
+OutputEnabled20_OutputMedium8=1
 OutputDefault20=0
+PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration20_Name1=OutputConfigurationParameter1
-Configuration20_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1,16908290~1,16908293~1,16908294~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Absolute|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=S:\vulliez\EDA-04490-V1-0\PCB-Layout\EDA-04490-V1-0_pcb.PcbDoc
-OutputType21=PDF3D
-OutputName21=PDF3D
-OutputCategory21=Documentation
+Configuration20_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=16350|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=4|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9|DocumentPath=S:\billerea\EDA-04213-V3-0\project\PCB-Layout\EDA-04213-V3-0_pcb.PcbDoc
+OutputType21=IPC2581
+OutputName21=IPC-2581 Files
+OutputCategory21=Fabrication
 OutputDocumentPath21=
 OutputVariantName21=
-OutputEnabled21=1
+OutputEnabled21=0
 OutputEnabled21_OutputMedium1=0
 OutputEnabled21_OutputMedium2=0
 OutputEnabled21_OutputMedium3=0
@@ -501,13 +482,11 @@ OutputEnabled21_OutputMedium5=0
 OutputEnabled21_OutputMedium6=0
 OutputEnabled21_OutputMedium7=0
 OutputEnabled21_OutputMedium8=0
-OutputEnabled21_OutputMedium9=1
 OutputDefault21=0
-PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration21_Name1=OutputConfigurationParameter1
-Configuration21_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=16350|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=4|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9|DocumentPath=S:\billerea\EDA-04213-V3-0\project\PCB-Layout\EDA-04213-V3-0_pcb.PcbDoc
-OutputType22=IPC2581
-OutputName22=IPC-2581 Files
+Configuration21_Item1=Record=IPC2581View|IPC2581Version=B|MeasurementSystem=Metric|FloatingPointPrecision=6|IsWiseSupport=False|DocumentPath=S:\vulliez\EDA-04123-V2-0\Schematics\EDA-04123-V2-0.PcbDoc
+OutputType22=Test Points
+OutputName22=Test Point Report
 OutputCategory22=Fabrication
 OutputDocumentPath22=
 OutputVariantName22=
@@ -516,32 +495,81 @@ OutputEnabled22_OutputMedium1=0
 OutputEnabled22_OutputMedium2=0
 OutputEnabled22_OutputMedium3=0
 OutputEnabled22_OutputMedium4=0
-OutputEnabled22_OutputMedium5=0
+OutputEnabled22_OutputMedium5=6
 OutputEnabled22_OutputMedium6=0
 OutputEnabled22_OutputMedium7=0
 OutputEnabled22_OutputMedium8=0
-OutputEnabled22_OutputMedium9=0
 OutputDefault22=0
 Configuration22_Name1=OutputConfigurationParameter1
-Configuration22_Item1=Record=IPC2581View|IPC2581Version=B|MeasurementSystem=Metric|FloatingPointPrecision=6|IsWiseSupport=False|DocumentPath=S:\vulliez\EDA-04123-V2-0\Schematics\EDA-04123-V2-0.PcbDoc
-OutputType23=Test Points
-OutputName23=Test Point Report
+Configuration22_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|MergeNetTieNets=True|OriginPosition=Relative|OutlineLayer=57|OutputAdjancencies=False|OutputBoardOutline=True|OutputTraces=True|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Imperial|DocumentPath=S:\vulliez\EDA-04490-V1-0\PCB-Layout\EDA-04490-V1-0_pcb.PcbDoc
+OutputType23=Gerber
+OutputName23=Gerber - PSU
 OutputCategory23=Fabrication
-OutputDocumentPath23=
+OutputDocumentPath23=DIOT_PSU_integrated.PcbDoc
 OutputVariantName23=
-OutputEnabled23=0
+OutputEnabled23=1
 OutputEnabled23_OutputMedium1=0
 OutputEnabled23_OutputMedium2=0
-OutputEnabled23_OutputMedium3=0
+OutputEnabled23_OutputMedium3=2
 OutputEnabled23_OutputMedium4=0
-OutputEnabled23_OutputMedium5=6
+OutputEnabled23_OutputMedium5=0
 OutputEnabled23_OutputMedium6=0
 OutputEnabled23_OutputMedium7=0
 OutputEnabled23_OutputMedium8=0
-OutputEnabled23_OutputMedium9=0
 OutputDefault23=0
 Configuration23_Name1=OutputConfigurationParameter1
-Configuration23_Item1=AdjacencyDistance=250000|GenerateCSVFormat=False|GenerateIPCFormat=True|GenerateSpreadSheetFormat=False|GenerateTextFormat=False|MergeNetTieNets=True|OriginPosition=Relative|OutlineLayer=57|OutputAdjancencies=False|OutputBoardOutline=True|OutputTraces=True|Record=TestPointView|ReportBottomLayerTestpoints=True|ReportTopLayerTestpoints=True|Units=Imperial|DocumentPath=S:\vulliez\EDA-04490-V1-0\PCB-Layout\EDA-04490-V1-0_pcb.PcbDoc
+Configuration23_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=FGGWHKWQ|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=False|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973833~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Users\spider\Desktop\git psu\DIOT_PSU_integrated\PSU - Main\PCB\DIOT_PSU_integrated.PcbDoc
+OutputType24=NC Drill
+OutputName24=NC Drill  - PSU
+OutputCategory24=Fabrication
+OutputDocumentPath24=DIOT_PSU_integrated.PcbDoc
+OutputVariantName24=
+OutputEnabled24=1
+OutputEnabled24_OutputMedium1=0
+OutputEnabled24_OutputMedium2=0
+OutputEnabled24_OutputMedium3=3
+OutputEnabled24_OutputMedium4=0
+OutputEnabled24_OutputMedium5=0
+OutputEnabled24_OutputMedium6=0
+OutputEnabled24_OutputMedium7=0
+OutputEnabled24_OutputMedium8=0
+OutputDefault24=0
+Configuration24_Name1=OutputConfigurationParameter1
+Configuration24_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\spider\Desktop\git psu\DIOT_PSU_integrated\PSU - Main\PCB\DIOT_PSU_integrated.PcbDoc
+OutputType25=Gerber
+OutputName25=Copy of Gerber - MEZ
+OutputCategory25=Fabrication
+OutputDocumentPath25=DIOT_PSU_integrated.PcbDoc
+OutputVariantName25=
+OutputEnabled25=0
+OutputEnabled25_OutputMedium1=0
+OutputEnabled25_OutputMedium2=0
+OutputEnabled25_OutputMedium3=0
+OutputEnabled25_OutputMedium4=0
+OutputEnabled25_OutputMedium5=0
+OutputEnabled25_OutputMedium6=0
+OutputEnabled25_OutputMedium7=0
+OutputEnabled25_OutputMedium8=0
+OutputDefault25=0
+Configuration25_Name1=OutputConfigurationParameter1
+Configuration25_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=FGGWHKWQ|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=False|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973833~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Users\spider\Desktop\git psu\DIOT_PSU_integrated\PSU - Main\PCB\DIOT_PSU_integrated.PcbDoc
+OutputType26=NC Drill
+OutputName26=Copy of NC Drill  - MEZ
+OutputCategory26=Fabrication
+OutputDocumentPath26=DIOT_PSU_integrated.PcbDoc
+OutputVariantName26=
+OutputEnabled26=0
+OutputEnabled26_OutputMedium1=0
+OutputEnabled26_OutputMedium2=0
+OutputEnabled26_OutputMedium3=0
+OutputEnabled26_OutputMedium4=0
+OutputEnabled26_OutputMedium5=0
+OutputEnabled26_OutputMedium6=0
+OutputEnabled26_OutputMedium7=0
+OutputEnabled26_OutputMedium8=0
+OutputDefault26=0
+Configuration26_Name1=OutputConfigurationParameter1
+Configuration26_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\spider\Desktop\git psu\DIOT_PSU_integrated\PSU - Main\PCB\DIOT_PSU_integrated.PcbDoc
 
 [PublishSettings]
 OutputFilePath1=S:\vulliez\EDA-04213-V3-0\Schematics\EDA-04774-V1-0_sch.pdf
@@ -598,12 +626,12 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=S:\vulliez\EDA-04774-V1-0\Assembly data\
+OutputFilePath3=C:\Users\spider\Desktop\git psu\DIOT_PSU_integrated\PSU - Main\Production files \
 ReleaseManaged3=0
-OutputBasePath3=Assembly data\
+OutputBasePath3=Production files\
 OutputPathMedia3=
 OutputPathMediaValue3=
-OutputPathOutputer3=
+OutputPathOutputer3=[Output Type]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
 OutputFileName3=
@@ -650,73 +678,60 @@ OutputFileNameMulti6=
 UseOutputNameForMulti6=1
 OutputFileNameSpecial6=
 OpenOutput6=1
-OutputFilePath7=S:\vulliez\EDA-04213-V3-0\Project Outputs for EDA-04213-V3-0_project\
+OutputFilePath7=K:\EDA-En cours\EDA-0xxxx - Designer - Title\PCB-Layout\
 ReleaseManaged7=0
-OutputBasePath7=Project Outputs for EDA-04213-V3-0_project\
+OutputBasePath7=PCB-Layout\
 OutputPathMedia7=
 OutputPathMediaValue7=
-OutputPathOutputer7=
+OutputPathOutputer7=[Output Type]
 OutputPathOutputerPrefix7=
 OutputPathOutputerValue7=
 OutputFileName7=
 OutputFileNameMulti7=
-UseOutputNameForMulti7=1
+UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
 OpenOutput7=0
-OutputFilePath8=K:\EDA-En cours\EDA-0xxxx - Designer - Title\PCB-Layout\
+OutputFilePath8=S:\vulliez\EDA-04213-V3-0\Pictures\EDA-04774-V1-0_3D.pdf
 ReleaseManaged8=0
-OutputBasePath8=PCB-Layout\
+OutputBasePath8=Pictures\
 OutputPathMedia8=
 OutputPathMediaValue8=
 OutputPathOutputer8=[Output Type]
 OutputPathOutputerPrefix8=
 OutputPathOutputerValue8=
-OutputFileName8=
+OutputFileName8=EDA-04213-V3-0_3D.pdf
 OutputFileNameMulti8=
 UseOutputNameForMulti8=0
 OutputFileNameSpecial8=
-OpenOutput8=0
-OutputFilePath9=S:\vulliez\EDA-04213-V3-0\Pictures\EDA-04774-V1-0_3D.pdf
-ReleaseManaged9=0
-OutputBasePath9=Pictures\
-OutputPathMedia9=
-OutputPathMediaValue9=
-OutputPathOutputer9=[Output Type]
-OutputPathOutputerPrefix9=
-OutputPathOutputerValue9=
-OutputFileName9=EDA-04213-V3-0_3D.pdf
-OutputFileNameMulti9=
-UseOutputNameForMulti9=0
-OutputFileNameSpecial9=
-OpenOutput9=1
-PromptOverwrite9=1
-PublishMethod9=0
-ZoomLevel9=50
-FitSCHPrintSizeToDoc9=1
-FitPCBPrintSizeToDoc9=1
-GenerateNetsInfo9=1
-MarkPins9=1
-MarkNetLabels9=1
-MarkPortsId9=1
-GenerateTOC9=1
-ShowComponentParameters9=1
-GlobalBookmarks9=0
-PDFACompliance9=Disabled
-PDFVersion9=Default
+OpenOutput8=1
+PromptOverwrite8=1
+PublishMethod8=0
+ZoomLevel8=50
+FitSCHPrintSizeToDoc8=1
+FitPCBPrintSizeToDoc8=1
+GenerateNetsInfo8=1
+MarkPins8=1
+MarkNetLabels8=1
+MarkPortsId8=1
+GenerateTOC8=1
+ShowComponentParameters8=1
+GlobalBookmarks8=0
+PDFACompliance8=Disabled
+PDFVersion8=Default
 
 [GeneratedFilesSettings]
 RelativeOutputPath1=S:\vulliez\EDA-04213-V3-0\Schematics\EDA-04774-V1-0_sch.pdf
 OpenOutputs1=1
 RelativeOutputPath2=S:\vulliez\EDA-04213-V3-0\PCB-Layout\EDA-04774-V1-0_pcb.pdf
 OpenOutputs2=1
-RelativeOutputPath3=S:\vulliez\EDA-04774-V1-0\Assembly data\
+RelativeOutputPath3=C:\Users\spider\Desktop\git psu\DIOT_PSU_integrated\PSU - Main\Production files \
 OpenOutputs3=1
 AddToProject3=0
-TimestampFolder3=0
-UseOutputName3=0
+TimestampFolder3=1
+UseOutputName3=1
 OpenODBOutput3=0
-OpenGerberOutput3=0
-OpenNCDrillOutput3=0
+OpenGerberOutput3=1
+OpenNCDrillOutput3=1
 OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=E:\Altium\EDA-0xxxx - Designer - Title\Temp\Generate Files\
@@ -749,7 +764,7 @@ OpenGerberOutput6=0
 OpenNCDrillOutput6=0
 OpenIPCOutput6=0
 EnableReload6=0
-RelativeOutputPath7=S:\vulliez\EDA-04213-V3-0\Project Outputs for EDA-04213-V3-0_project\
+RelativeOutputPath7=K:\EDA-En cours\EDA-0xxxx - Designer - Title\PCB-Layout\
 OpenOutputs7=0
 AddToProject7=0
 TimestampFolder7=0
@@ -759,16 +774,6 @@ OpenGerberOutput7=0
 OpenNCDrillOutput7=0
 OpenIPCOutput7=0
 EnableReload7=0
-RelativeOutputPath8=K:\EDA-En cours\EDA-0xxxx - Designer - Title\PCB-Layout\
-OpenOutputs8=0
-AddToProject8=0
-TimestampFolder8=0
-UseOutputName8=0
-OpenODBOutput8=0
-OpenGerberOutput8=0
-OpenNCDrillOutput8=0
-OpenIPCOutput8=0
-EnableReload8=0
-RelativeOutputPath9=S:\vulliez\EDA-04213-V3-0\Pictures\EDA-04774-V1-0_3D.pdf
-OpenOutputs9=1
+RelativeOutputPath8=S:\vulliez\EDA-04213-V3-0\Pictures\EDA-04774-V1-0_3D.pdf
+OpenOutputs8=1
 

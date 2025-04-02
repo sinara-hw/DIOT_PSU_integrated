@@ -225,13 +225,196 @@ UniqueId=0456c8b2-cf49-421c-b103-2886103cf190
 Description=Variant of DIOT_PSU_integrated - Main
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
+VariationCount=5
 Variation1=Designator=R42|UniqueId=\ZWAZQGGF|Kind=1|AlternatePart=
 Variation2=Designator=R43|UniqueId=\AASWHQKE\YVDFSCZU|Kind=1|AlternatePart=
+Variation3=Designator=R44|UniqueId=\AASWHQKE\VRRVOZOV|Kind=1|AlternatePart=
+Variation4=Designator=IC6|UniqueId=\AASWHQKE\FJOXBADU|Kind=1|AlternatePart=
+Variation5=Designator=C23|UniqueId=\AASWHQKE\GDVJPQBU|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=outputs\Design Rule Check - DIOT_PSU_integrated.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Assembly data 02.04.2025 22-02-01\Gerber.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Assembly data 02.04.2025 22-02-27\Gerber.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GM
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GM
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GM
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GM
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument38]
+DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Assembly data 02.04.2025 22-02-01\Gerber.REP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Assembly data 02.04.2025 22-02-27\Gerber.REP
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Assembly data 02.04.2025 22-02-01\NC Drill .DRR
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Production files 02.04.2025 22-23-12\NC Drill .DRR
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Assembly data 02.04.2025 22-02-01\NC Drill .LDP
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Production files 02.04.2025 22-23-12\NC Drill .LDP
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Assembly data 02.04.2025 22-02-01\NC Drill .TXT
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Production files 02.04.2025 22-23-12\NC Drill .TXT
 DItemRevisionGUID=
 
 [Parameter1]

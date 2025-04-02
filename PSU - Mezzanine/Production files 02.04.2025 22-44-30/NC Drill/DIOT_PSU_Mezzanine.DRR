@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DIOT_PSU_Mezzanine.PcbDoc   02.04.2025  22:44:30
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : DIOT_PSU_Mezzanine.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.4mm (16mil)                                             Round             11        PTH        67.68mm (2.66inch)
+T2      0.9mm (35mil)                                             Round             6         PTH        73.20mm (2.88inch)
+T3      1mm (39mil)                                               Round             4         PTH        34.36mm (1.35inch)
+T4      1.3mm (51mil)                                             Round             8         PTH        60.00mm (2.36inch)
+T5      1.4mm (55mil)                                             Round             7         PTH        80.05mm (3.15inch)
+T6      1.6mm (63mil)                                             Round             1         PTH        0.00mm (0.00inch)
+T7      2mm (79mil)                                               Round             8         PTH        128.95mm (5.08inch)
+T8      2.7mm (106mil)                                            Round             4         PTH        162.49mm (6.40inch)
+T9      1.1mm (43mil)                                             Round             10        NPTH       22.86mm (0.90inch)
+T10     6mm (236mil)                                              Round             2         NPTH       27.00mm (1.06inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              61
+
+Total Processing Time (hh:mm:ss) : 00:00:00
