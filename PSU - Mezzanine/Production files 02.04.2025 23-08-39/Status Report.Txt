@@ -1,0 +1,12 @@
+Output: NC Drill  - MEZ
+Type  : NC Drill
+From  : PCB Document [DIOT_PSU_Mezzanine.PcbDoc]
+   Generated File[DIOT_PSU_Mezzanine.TXT]
+   Generated File[DIOT_PSU_Mezzanine.LDP]
+   Generated File[DIOT_PSU_Mezzanine.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 23:08:42 On 02.04.2025

@@ -1,0 +1,12 @@
+Output: NC Drill  - PSU
+Type  : NC Drill
+From  : PCB Document [DIOT_PSU_integrated.PcbDoc]
+   Generated File[NC Drill  - PSU.TXT]
+   Generated File[NC Drill  - PSU.LDP]
+   Generated File[NC Drill  - PSU.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 23:45:21 On 02.04.2025
