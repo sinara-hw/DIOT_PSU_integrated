@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=4
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component$ChannelAlpha
@@ -11,7 +11,7 @@ TimestampOutput=0
 SeparateFolders=1
 TemplateLocationPath=.\
 PinSwapBy_Netlabel=1
-PinSwapBy_Pin=1
+PinSwapBy_Pin=0
 AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
@@ -102,23 +102,6 @@ GenerateClassCluster=0
 DocumentUniqueId=TQWPXFHW
 
 [Document4]
-DocumentPath=SCH\FAN_Control.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=CJRAFYTD
-
-[Document5]
 DocumentPath=SCH\LED_Bargraph.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +118,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WERVEHWA
 
-[Document6]
+[Document5]
 DocumentPath=SCH\PSU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SGLYRIDU
 
-[Document7]
+[Document6]
 DocumentPath=SCH\EEPROM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -169,7 +152,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ITVQRUCN
 
-[Document8]
+[Document7]
 DocumentPath=SCH\ADC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,7 +169,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WIASAZWT
 
-[Document9]
+[Document8]
 DocumentPath=SCH\IAMP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -203,7 +186,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FMEPZAHE
 
-[Document10]
+[Document9]
 DocumentPath=DIOT_PSU_integrated - Main.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -225,12 +208,22 @@ UniqueId=0456c8b2-cf49-421c-b103-2886103cf190
 Description=Variant of DIOT_PSU_integrated - Main
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
-Variation1=Designator=R42|UniqueId=\ZWAZQGGF|Kind=1|AlternatePart=
-Variation2=Designator=R43|UniqueId=\AASWHQKE\YVDFSCZU|Kind=1|AlternatePart=
-Variation3=Designator=R44|UniqueId=\AASWHQKE\VRRVOZOV|Kind=1|AlternatePart=
-Variation4=Designator=IC6|UniqueId=\AASWHQKE\FJOXBADU|Kind=1|AlternatePart=
-Variation5=Designator=C23|UniqueId=\AASWHQKE\GDVJPQBU|Kind=1|AlternatePart=
+VariationCount=15
+Variation1=Designator=R43|UniqueId=\AASWHQKE\YVDFSCZU|Kind=1|AlternatePart=
+Variation2=Designator=R44|UniqueId=\AASWHQKE\VRRVOZOV|Kind=1|AlternatePart=
+Variation3=Designator=IC6|UniqueId=\AASWHQKE\FJOXBADU|Kind=1|AlternatePart=
+Variation4=Designator=C23|UniqueId=\AASWHQKE\GDVJPQBU|Kind=1|AlternatePart=
+Variation5=Designator=J12|UniqueId=\PFNXLCRZ\PBMGURXO|Kind=1|AlternatePart=
+Variation6=Designator=J13|UniqueId=\PFNXLCRZ\TKJERFNT|Kind=1|AlternatePart=
+Variation7=Designator=J16|UniqueId=\PFNXLCRZ\JPWXOXLB|Kind=1|AlternatePart=
+Variation8=Designator=J17|UniqueId=\PFNXLCRZ\XLSBFEQI|Kind=1|AlternatePart=
+Variation9=Designator=J21|UniqueId=\PFNXLCRZ\FDBPPTIK|Kind=1|AlternatePart=
+Variation10=Designator=J18|UniqueId=\PFNXLCRZ\MYLHZKZY|Kind=1|AlternatePart=
+Variation11=Designator=J22|UniqueId=\PFNXLCRZ\GSRFMXTU|Kind=1|AlternatePart=
+Variation12=Designator=J14|UniqueId=\PFNXLCRZ\QKINAWUU|Kind=1|AlternatePart=
+Variation13=Designator=J19|UniqueId=\PFNXLCRZ\BJKCHFMB|Kind=1|AlternatePart=
+Variation14=Designator=J15|UniqueId=\PFNXLCRZ\QVLTQJON|Kind=1|AlternatePart=
+Variation15=Designator=J20|UniqueId=\PFNXLCRZ\NITDDHCY|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -418,12 +411,16 @@ DocumentPath=Production files 02.04.2025 22-23-12\NC Drill .TXT
 DItemRevisionGUID=
 
 [Parameter1]
-Name=OHL_License
-Value=OHL-W v2.0+
+Name=P_version
+Value=2.0
 
 [Parameter2]
 Name=wikis
 Value=https://ohwr.org/project/diot-crate-hw/wikis
+
+[Parameter3]
+Name=OHL_License
+Value=OHL-W v2.0+
 
 [Configuration1]
 Name=Default Configuration
@@ -1444,10 +1441,10 @@ SelectedOnly=1
 UpdateVariants=0
 UpdateToLatestRevision=1
 PartTypes=1
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Pads.SchLib
-ComponentDesignItemID0=CERN_OHL
-ComponentSymbolReference0=CERN_OHL
+ComponentLibIdentifierKind0=Vault Name
+ComponentLibraryIdentifier0=TechnoSystem Workspace
+ComponentDesignItemID0=CMP-00028-00014-2
+ComponentSymbolReference0=Spacer
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1463,14 +1460,31 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Case/Package
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Comment
 ParameterUpdate1=1
-ParameterName2=Description
+ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Library Reference
+ParameterName3=Description
 ParameterUpdate3=1
+ParameterName4=Library Reference
+ParameterUpdate4=1
+ParameterName5=Max Operating Temperature
+ParameterUpdate5=1
+ParameterName6=Min Operating Temperature
+ParameterUpdate6=1
+ParameterName7=Mounting Technology
+ParameterUpdate7=1
+ParameterName8=Pins
+ParameterUpdate8=1
+ParameterName9=RoHS Compliant
+ParameterUpdate9=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=9775046360
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1488,12 +1502,13 @@ Net6=NetName=Isense1|NetColor=clYellow
 Net7=NetName=Isense2|NetColor=$00FF6EFF
 Net8=NetName=P12V0|NetColor=$006EFF6E
 Net9=NetName=P12V0_RSENS|NetColor=$006E6EFF
-Net10=NetName=P5V0|NetColor=$00FFFF6E
-Net11=NetName=PG|NetColor=$00FF6E6E
-Net12=NetName=PRST_N|NetColor=$00FF6EFF
-Net13=NetName=PS_ON_N|NetColor=$006E6EFF
-Net14=NetName=PS-ON|NetColor=$006EFF6E
-Net15=NetName=R\E\S\E\T\|NetColor=$006E6EFF
+Net10=NetName=P3V3|NetColor=clBlack
+Net11=NetName=P5V0|NetColor=$00FFFF6E
+Net12=NetName=PG|NetColor=$00FF6E6E
+Net13=NetName=PRST_N|NetColor=$00FF6EFF
+Net14=NetName=PS_ON_N|NetColor=$006E6EFF
+Net15=NetName=PS-ON|NetColor=$006EFF6E
+Net16=NetName=R\E\S\E\T\|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
