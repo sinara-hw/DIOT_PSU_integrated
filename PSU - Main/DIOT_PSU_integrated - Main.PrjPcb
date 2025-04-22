@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=Variant of DIOT_PSU_integrated - Main
+CurrentVariant=Default
 
 [Preferences]
 PrefsVaultGUID=
@@ -205,10 +205,10 @@ DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueId=0456c8b2-cf49-421c-b103-2886103cf190
-Description=Variant of DIOT_PSU_integrated - Main
+Description=Default
 AllowFabrication=0
 ParameterCount=0
-VariationCount=15
+VariationCount=19
 Variation1=Designator=R43|UniqueId=\AASWHQKE\YVDFSCZU|Kind=1|AlternatePart=
 Variation2=Designator=R44|UniqueId=\AASWHQKE\VRRVOZOV|Kind=1|AlternatePart=
 Variation3=Designator=IC6|UniqueId=\AASWHQKE\FJOXBADU|Kind=1|AlternatePart=
@@ -224,7 +224,147 @@ Variation12=Designator=J14|UniqueId=\PFNXLCRZ\QKINAWUU|Kind=1|AlternatePart=
 Variation13=Designator=J19|UniqueId=\PFNXLCRZ\BJKCHFMB|Kind=1|AlternatePart=
 Variation14=Designator=J15|UniqueId=\PFNXLCRZ\QVLTQJON|Kind=1|AlternatePart=
 Variation15=Designator=J20|UniqueId=\PFNXLCRZ\NITDDHCY|Kind=1|AlternatePart=
-ParamVariationCount=0
+Variation16=Designator=D3|UniqueId=\IRITJFQU\YEMDDIZN|Kind=1|AlternatePart=
+Variation17=Designator=D5|UniqueId=\IRITJFQU\PDBCUWWK|Kind=1|AlternatePart=
+Variation18=Designator=L2|UniqueId=\AASWHQKE\ARRIMQFL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Libraries\cernlib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0603_10R_0.1%_0.063W_10PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC1608X55N|AltLibLink_IsSameFootprint=False
+ParamVariation1=ParameterName=Case|VariantValue=0603
+ParamDesignator1=L2
+ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator2=L2
+ParamVariation3=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator3=L2
+ParamVariation4=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator4=L2
+ParamVariation5=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator5=L2
+ParamVariation6=ParameterName=Description|VariantValue=Resistor - 0.1%
+ParamDesignator6=L2
+ParamVariation7=ParameterName=Footprint|VariantValue=RESC1608X55N
+ParamDesignator7=L2
+ParamVariation8=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0603_Tyco_RN73.pdf
+ParamDesignator8=L2
+ParamVariation9=ParameterName=Ibis Model|VariantValue=
+ParamDesignator9=L2
+ParamVariation10=ParameterName=LatestRevisionDate|VariantValue=13.03.2008
+ParamDesignator10=L2
+ParamVariation11=ParameterName=Library Reference|VariantValue=R0603_10R_0.1%_0.063W_10PPM
+ParamDesignator11=L2
+ParamVariation12=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator12=L2
+ParamVariation13=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.5mm
+ParamDesignator13=L2
+ParamVariation14=ParameterName=Manufacturer1 Example|VariantValue=TYCO HOLSWORTHY
+ParamDesignator14=L2
+ParamVariation15=ParameterName=Manufacturer1 Part Number|VariantValue=RN73C1J10RBTDF
+ParamDesignator15=L2
+ParamVariation16=ParameterName=Manufacturer Part Number|VariantValue=R0603_10R_0.1%_0.063W_10PPM
+ParamDesignator16=L2
+ParamVariation17=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator17=L2
+ParamVariation18=ParameterName=Part Description|VariantValue=Thin Film Chip Resistor
+ParamDesignator18=L2
+ParamVariation19=ParameterName=Part Number|VariantValue=R0603_10R_0.1%_0.063W_10PPM
+ParamDesignator19=L2
+ParamVariation20=ParameterName=PCB3D|VariantValue=
+ParamDesignator20=L2
+ParamVariation21=ParameterName=Pin Count|VariantValue=2
+ParamDesignator21=L2
+ParamVariation22=ParameterName=Pin Info|VariantValue=
+ParamDesignator22=L2
+ParamVariation23=ParameterName=Power|VariantValue=0.063W
+ParamDesignator23=L2
+ParamVariation24=ParameterName=PressFit|VariantValue=No
+ParamDesignator24=L2
+ParamVariation25=ParameterName=Sense|VariantValue=No
+ParamDesignator25=L2
+ParamVariation26=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator26=L2
+ParamVariation27=ParameterName=Simulation|VariantValue=
+ParamDesignator27=L2
+ParamVariation28=ParameterName=SMD|VariantValue=Yes
+ParamDesignator28=L2
+ParamVariation29=ParameterName=Socket|VariantValue=No
+ParamDesignator29=L2
+ParamVariation30=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator30=L2
+ParamVariation31=ParameterName=TC|VariantValue=±10ppm
+ParamDesignator31=L2
+ParamVariation32=ParameterName=Tolerance|VariantValue=±0.1%
+ParamDesignator32=L2
+ParamVariation33=ParameterName=Value|VariantValue=10
+ParamDesignator33=L2
+ParamVariation34=ParameterName=Comment|VariantValue==Value
+ParamDesignator34=L2
+Variation19=Designator=L1|UniqueId=\AASWHQKE\FDTUKJIG|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Libraries\cernlib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0603_10R_0.1%_0.063W_10PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC1608X55N|AltLibLink_IsSameFootprint=False
+ParamVariation35=ParameterName=Case|VariantValue=0603
+ParamDesignator35=L1
+ParamVariation36=ParameterName=Comment|VariantValue==Value
+ParamDesignator36=L1
+ParamVariation37=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator37=L1
+ParamVariation38=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator38=L1
+ParamVariation39=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator39=L1
+ParamVariation40=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator40=L1
+ParamVariation41=ParameterName=Description|VariantValue=Resistor - 0.1%
+ParamDesignator41=L1
+ParamVariation42=ParameterName=Footprint|VariantValue=RESC1608X55N
+ParamDesignator42=L1
+ParamVariation43=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0603_Tyco_RN73.pdf
+ParamDesignator43=L1
+ParamVariation44=ParameterName=Ibis Model|VariantValue=
+ParamDesignator44=L1
+ParamVariation45=ParameterName=LatestRevisionDate|VariantValue=13.03.2008
+ParamDesignator45=L1
+ParamVariation46=ParameterName=Library Reference|VariantValue=R0603_10R_0.1%_0.063W_10PPM
+ParamDesignator46=L1
+ParamVariation47=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator47=L1
+ParamVariation48=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.5mm
+ParamDesignator48=L1
+ParamVariation49=ParameterName=Manufacturer1 Example|VariantValue=TYCO HOLSWORTHY
+ParamDesignator49=L1
+ParamVariation50=ParameterName=Manufacturer1 Part Number|VariantValue=RN73C1J10RBTDF
+ParamDesignator50=L1
+ParamVariation51=ParameterName=Manufacturer Part Number|VariantValue=R0603_10R_0.1%_0.063W_10PPM
+ParamDesignator51=L1
+ParamVariation52=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator52=L1
+ParamVariation53=ParameterName=Part Description|VariantValue=Thin Film Chip Resistor
+ParamDesignator53=L1
+ParamVariation54=ParameterName=Part Number|VariantValue=R0603_10R_0.1%_0.063W_10PPM
+ParamDesignator54=L1
+ParamVariation55=ParameterName=PCB3D|VariantValue=
+ParamDesignator55=L1
+ParamVariation56=ParameterName=Pin Count|VariantValue=2
+ParamDesignator56=L1
+ParamVariation57=ParameterName=Pin Info|VariantValue=
+ParamDesignator57=L1
+ParamVariation58=ParameterName=Power|VariantValue=0.063W
+ParamDesignator58=L1
+ParamVariation59=ParameterName=PressFit|VariantValue=No
+ParamDesignator59=L1
+ParamVariation60=ParameterName=Sense|VariantValue=No
+ParamDesignator60=L1
+ParamVariation61=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator61=L1
+ParamVariation62=ParameterName=Simulation|VariantValue=
+ParamDesignator62=L1
+ParamVariation63=ParameterName=SMD|VariantValue=Yes
+ParamDesignator63=L1
+ParamVariation64=ParameterName=Socket|VariantValue=No
+ParamDesignator64=L1
+ParamVariation65=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator65=L1
+ParamVariation66=ParameterName=TC|VariantValue=±10ppm
+ParamDesignator66=L1
+ParamVariation67=ParameterName=Tolerance|VariantValue=±0.1%
+ParamDesignator67=L1
+ParamVariation68=ParameterName=Value|VariantValue=10
+ParamDesignator68=L1
+ParamVariationCount=68
 
 [GeneratedDocument1]
 DocumentPath=outputs\Design Rule Check - DIOT_PSU_integrated.html
@@ -411,16 +551,16 @@ DocumentPath=Production files 02.04.2025 22-23-12\NC Drill .TXT
 DItemRevisionGUID=
 
 [Parameter1]
+Name=OHL_License
+Value=OHL-W v2.0+
+
+[Parameter2]
 Name=P_version
 Value=2.0
 
-[Parameter2]
+[Parameter3]
 Name=wikis
 Value=https://ohwr.org/project/diot-crate-hw/wikis
-
-[Parameter3]
-Name=OHL_License
-Value=OHL-W v2.0+
 
 [Configuration1]
 Name=Default Configuration
@@ -1140,6 +1280,13 @@ Type148=1
 Type149=1
 Type150=1
 Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
 
 [Difference Levels]
 Type1=1
@@ -1224,6 +1371,10 @@ Type79=1
 Type80=1
 Type81=1
 Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
 
 [Electrical Rules Check]
 Type1=1

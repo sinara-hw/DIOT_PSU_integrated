@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\spider\Desktop\git psu\DIOT_PSU_integrated\PSU - Main\PCB\DIOT_PSU_integrated.PcbDoc
-Date     : 02.04.2025
-Time     : 23:44:47
+PCB File : C:\Projects\DIOT_PSU_integrated\PSU - Main\PCB\DIOT_PSU_integrated.PcbDoc
+Date     : 22.04.2025
+Time     : 11:23:59
 
 Processing Rule : Clearance Constraint (Gap=0mm) (OnLayer('Keep-Out Layer')),(HasFootprint('FIDUCIAL_TOP_S200-400') or HasFootprint('FIDUCIAL_TOP_C100-200') or HasFootprint('FIDUCIAL_TOP_S100-200') or  HasFootprint('FIDUCIAL_TOP_C40-120'))
 Rule Violations :0
@@ -31,7 +31,7 @@ Rule Violations :0
 Processing Rule : Routing Layers(InNetClass('FMC_MGT') or InNetClass('SLOT1_MGT') or InNetClass('SLOT2_MGT')  or InNetClass('SLOT3_MGT')  or InNetClass('SLOT4_MGT') or InNetClass('SLOT5_MGT')  or InNetClass('SLOT6_MGT')    or InNetClass('SLOT7_MGT')   or InNetClass('SLOT8_MGT'))
 Rule Violations :0
 
-Processing Rule : Routing Via (MinHoleWidth=0.3mm) (MaxHoleWidth=1mm) (PreferredHoleWidth=0.3mm) (MinWidth=0.5mm) (MaxWidth=2mm) (PreferedWidth=0.6mm) (All)
+Processing Rule : Routing Via (MinHoleWidth=0.3mm) (MaxHoleWidth=1mm) (PreferredHoleWidth=0.3mm) (MinWidth=0.5mm) (MaxWidth=2mm) (PreferedWidth=0.7mm) (All)
 Rule Violations :0
 
 Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.254mm) (Max=0.254mm) (Prefered=0.254mm)  and Width Constraints (Min=0.381mm) (Max=0.381mm) (Prefered=0.381mm) (All)
@@ -49,16 +49,16 @@ Rule Violations :0
 Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) ((IsVia or InPadClass('Direct')   ))
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.3mm) (Air Gap=0.2mm) (Entries=4) ((AsMM(HoleDiameter)>=1) and (AsMM(HoleDiameter)<1.5))
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.25mm) (Air Gap=0.2mm) (Entries=4) ((AsMM(HoleDiameter)>=0.5) and (AsMM(HoleDiameter)<1))
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.25mm) (Air Gap=0.2mm) (Entries=4) ((AsMM(HoleDiameter)>=0.5) and (AsMM(HoleDiameter)<1))
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.3mm) (Air Gap=0.2mm) (Entries=4) ((AsMM(HoleDiameter)>=1) and (AsMM(HoleDiameter)<1.5))
 Rule Violations :0
 
 Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (IsVia)
 Rule Violations :0
 
-Processing Rule : Acute Angle Constraint (Minimum=60.000) (All)
+Processing Rule : Acute Angle Constraint [Tracks Only] (Minimum=60.000) (All)
 Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=5mm) (All)
@@ -67,7 +67,7 @@ Rule Violations :0
 Processing Rule : Pads and Vias to follow the Drill pairs settings
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=0.3mm) (All),(All)
+Processing Rule : Hole To Hole Clearance (Gap=0.3mm) (Not InComponent('BUSH1')),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (IsThruPin),(IsThruPin)
@@ -82,7 +82,7 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=-100mm) (HasFootprint('9775066360R'))
+Processing Rule : Net Antennae (Tolerance=100mm) (InComponent('MP10') or InComponent('MP11'))
 Rule Violations :0
 
 Processing Rule : Vias Under SMD Constraint (Allowed=Allowed) (All)
@@ -91,14 +91,11 @@ Rule Violations :0
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = -25.4mm, Vertical Gap = -25.4mm ) (HasFootprint('LOP-400-12')),(All) 
 Rule Violations :0
 
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = -25.4mm, Vertical Gap = -25.4mm ) (HasFootprint('AMPHENOL_51939-667') OR (HasFootprint('BOSSARD_BN628-1241443_v') OR HasFootprint('BOSSARD_BN5687-3061608_v')) or HasFootprint('BOSSARD_BN83728-8243964_v')),((HasFootprint('BOSSARD_BN628-1241443_v') OR HasFootprint('BOSSARD_BN5687-3061608_v')) or HasFootprint('BOSSARD_BN83728-8243964_v')) 
+Rule Violations :0
+
 Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0.254mm, Vertical Gap = 0.254mm ) (All),(All) 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J1-PwrBlade (209.34mm,10.79mm) on Bottom Layer And SMT Small Component NUT1-M3 (207.065mm,84.529mm) on Bottom Layer 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between Component J1-PwrBlade (209.34mm,10.79mm) on Bottom Layer And SMT Small Component NUT2-M3 (206.8mm,4.445mm) on Bottom Layer 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component NUT1-M3 (207.065mm,84.529mm) on Bottom Layer And SMT Small Component SCREW2-M3x10 (206.8mm,84.455mm) on Top Layer 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component NUT2-M3 (206.8mm,4.445mm) on Bottom Layer And SMT Small Component SCREW1-M3x10 (206.8mm,4.445mm) on Top Layer 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component SCREW1-M3x10 (206.8mm,4.445mm) on Top Layer And SMT Small Component WASHER1-D6xd3.2 (206.8mm,4.445mm) on Top Layer 
-   Violation between Component Clearance Constraint: (Collision < 0.254mm) Between SMT Small Component SCREW2-M3x10 (206.8mm,84.455mm) on Top Layer And SMT Small Component WASHER2-D6xd3.2 (206.8mm,84.455mm) on Top Layer 
-Rule Violations :6
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=38mm) (Prefered=10mm) (OnTop)
 Rule Violations :0
@@ -107,6 +104,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=20mm) (Prefered=10mm) (OnBott
 Rule Violations :0
 
 
-Violations Detected : 7
+Violations Detected : 1
 Waived Violations : 0
 Time Elapsed        : 00:00:01
