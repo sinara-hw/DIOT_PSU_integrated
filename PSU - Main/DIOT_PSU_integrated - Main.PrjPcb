@@ -203,6 +203,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document10]
+DocumentPath=DIOT_PSU_integrated - Main.SCHLIB
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KWPBNZJF
+
 [ProjectVariant1]
 UniqueId=0456c8b2-cf49-421c-b103-2886103cf190
 Description=Default
@@ -224,9 +241,8 @@ Variation12=Designator=J14|UniqueId=\PFNXLCRZ\QKINAWUU|Kind=1|AlternatePart=
 Variation13=Designator=J19|UniqueId=\PFNXLCRZ\BJKCHFMB|Kind=1|AlternatePart=
 Variation14=Designator=J15|UniqueId=\PFNXLCRZ\QVLTQJON|Kind=1|AlternatePart=
 Variation15=Designator=J20|UniqueId=\PFNXLCRZ\NITDDHCY|Kind=1|AlternatePart=
-Variation16=Designator=D3|UniqueId=\IRITJFQU\YEMDDIZN|Kind=1|AlternatePart=
-Variation17=Designator=D5|UniqueId=\IRITJFQU\PDBCUWWK|Kind=1|AlternatePart=
-Variation18=Designator=L2|UniqueId=\AASWHQKE\ARRIMQFL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Libraries\cernlib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0603_10R_0.1%_0.063W_10PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC1608X55N|AltLibLink_IsSameFootprint=False
+Variation16=Designator=D5|UniqueId=\IRITJFQU\PDBCUWWK|Kind=1|AlternatePart=
+Variation17=Designator=L2|UniqueId=\AASWHQKE\ARRIMQFL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Libraries\cernlib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0603_10R_0.1%_0.063W_10PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC1608X55N|AltLibLink_IsSameFootprint=False
 ParamVariation1=ParameterName=Case|VariantValue=0603
 ParamDesignator1=L2
 ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
@@ -295,7 +311,7 @@ ParamVariation33=ParameterName=Value|VariantValue=10
 ParamDesignator33=L2
 ParamVariation34=ParameterName=Comment|VariantValue==Value
 ParamDesignator34=L2
-Variation19=Designator=L1|UniqueId=\AASWHQKE\FDTUKJIG|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Libraries\cernlib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0603_10R_0.1%_0.063W_10PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC1608X55N|AltLibLink_IsSameFootprint=False
+Variation18=Designator=L1|UniqueId=\AASWHQKE\FDTUKJIG|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Libraries\cernlib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0603_10R_0.1%_0.063W_10PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC1608X55N|AltLibLink_IsSameFootprint=False
 ParamVariation35=ParameterName=Case|VariantValue=0603
 ParamDesignator35=L1
 ParamVariation36=ParameterName=Comment|VariantValue==Value
@@ -364,6 +380,7 @@ ParamVariation67=ParameterName=Tolerance|VariantValue=±0.1%
 ParamDesignator67=L1
 ParamVariation68=ParameterName=Value|VariantValue=10
 ParamDesignator68=L1
+Variation19=Designator=D3|UniqueId=\IRITJFQU\YEMDDIZN|Kind=1|AlternatePart=
 ParamVariationCount=68
 
 [GeneratedDocument1]
