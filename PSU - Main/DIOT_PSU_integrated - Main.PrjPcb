@@ -34,7 +34,7 @@ FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=1
-OutputPath=outputs
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -171,6 +171,23 @@ DocumentUniqueId=FMEPZAHE
 
 [Document8]
 DocumentPath=DIOT_PSU_integrated - Main.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document9]
+DocumentPath=DIOT_PSU_integrated - Main.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -349,190 +366,6 @@ ParamDesignator68=L1
 Variation19=Designator=D3|UniqueId=\IRITJFQU\YEMDDIZN|Kind=1|AlternatePart=
 ParamVariationCount=68
 
-[GeneratedDocument1]
-DocumentPath=outputs\Design Rule Check - DIOT_PSU_integrated.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Assembly data 02.04.2025 22-02-01\Gerber.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Assembly data 02.04.2025 22-02-27\Gerber.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GM
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GM
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GM
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GM
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Production files 02.04.2025 22-16-51\Gerber.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Production files 02.04.2025 22-19-00\Gerber.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Production files 02.04.2025 22-22-35\Gerber.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Production files 02.04.2025 22-23-12\Gerber.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Assembly data 02.04.2025 22-02-01\Gerber.REP
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Assembly data 02.04.2025 22-02-27\Gerber.REP
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Assembly data 02.04.2025 22-02-01\NC Drill .DRR
-DItemRevisionGUID=
-
-[GeneratedDocument42]
-DocumentPath=Production files 02.04.2025 22-23-12\NC Drill .DRR
-DItemRevisionGUID=
-
-[GeneratedDocument43]
-DocumentPath=Assembly data 02.04.2025 22-02-01\NC Drill .LDP
-DItemRevisionGUID=
-
-[GeneratedDocument44]
-DocumentPath=Production files 02.04.2025 22-23-12\NC Drill .LDP
-DItemRevisionGUID=
-
-[GeneratedDocument45]
-DocumentPath=Assembly data 02.04.2025 22-02-01\NC Drill .TXT
-DItemRevisionGUID=
-
-[GeneratedDocument46]
-DocumentPath=Production files 02.04.2025 22-23-12\NC Drill .TXT
-DItemRevisionGUID=
-
 [Parameter1]
 Name=OHL_License
 Value=OHL-W v2.0+
@@ -560,7 +393,7 @@ AutoOpenFile=-1
 AutoOpenOutJob=-1
 
 [Generic_EDE]
-OutputDir=outputs
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -667,22 +500,12 @@ OutputName20=MultiWire
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1099,36 +922,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=MathWorks
-OutputName15=MathWorks (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=Orcad v7 Capture Design
-OutputName16=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD ASCII
-OutputName17=P-CAD ASCII (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=P-CAD V16 Schematic Design
-OutputName18=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

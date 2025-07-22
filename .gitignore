@@ -9,7 +9,8 @@ Project outputs for*
 *.log
 *.LibPkg
 lib
-Models*
+/Models/
+/doc/
 
 
 /PSU - Main/Project Logs for DIOT_PSU_integrated - Main/
