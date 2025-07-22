@@ -68,23 +68,6 @@ GenerateClassCluster=0
 DocumentUniqueId=FGGWHKWQ
 
 [Document2]
-DocumentPath=DIOT_PSU_integrated.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
 DocumentPath=SCH\DIOT_PSU_integrated.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -101,7 +84,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TQWPXFHW
 
-[Document4]
+[Document3]
 DocumentPath=SCH\LED_Bargraph.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -118,7 +101,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WERVEHWA
 
-[Document5]
+[Document4]
 DocumentPath=SCH\PSU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +118,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SGLYRIDU
 
-[Document6]
+[Document5]
 DocumentPath=SCH\EEPROM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ITVQRUCN
 
-[Document7]
+[Document6]
 DocumentPath=SCH\ADC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -169,7 +152,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WIASAZWT
 
-[Document8]
+[Document7]
 DocumentPath=SCH\IAMP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,7 +169,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FMEPZAHE
 
-[Document9]
+[Document8]
 DocumentPath=DIOT_PSU_integrated - Main.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,81 +207,80 @@ Variation12=Designator=J14|UniqueId=\PFNXLCRZ\QKINAWUU|Kind=1|AlternatePart=
 Variation13=Designator=J19|UniqueId=\PFNXLCRZ\BJKCHFMB|Kind=1|AlternatePart=
 Variation14=Designator=J15|UniqueId=\PFNXLCRZ\QVLTQJON|Kind=1|AlternatePart=
 Variation15=Designator=J20|UniqueId=\PFNXLCRZ\NITDDHCY|Kind=1|AlternatePart=
-Variation16=Designator=D3|UniqueId=\IRITJFQU\YEMDDIZN|Kind=1|AlternatePart=
-Variation17=Designator=D5|UniqueId=\IRITJFQU\PDBCUWWK|Kind=1|AlternatePart=
-Variation18=Designator=L2|UniqueId=\AASWHQKE\ARRIMQFL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Libraries\cernlib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0603_10R_0.1%_0.063W_10PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC1608X55N|AltLibLink_IsSameFootprint=False
-ParamVariation1=ParameterName=Case|VariantValue=0603
+Variation16=Designator=D5|UniqueId=\IRITJFQU\PDBCUWWK|Kind=1|AlternatePart=
+Variation17=Designator=L2|UniqueId=\AASWHQKE\ARRIMQFL|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Libraries\cernlib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0603_10R_0.1%_0.063W_10PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC1608X55N|AltLibLink_IsSameFootprint=False
+ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=L2
-ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
+ParamVariation2=ParameterName=Case|VariantValue=0603
 ParamDesignator2=L2
-ParamVariation3=ParameterName=Component Type|VariantValue=Standard
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator3=L2
-ParamVariation4=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamVariation4=ParameterName=Component Type|VariantValue=Standard
 ParamDesignator4=L2
-ParamVariation5=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamVariation5=ParameterName=CreateDate|VariantValue=03.12.2007
 ParamDesignator5=L2
-ParamVariation6=ParameterName=Description|VariantValue=Resistor - 0.1%
+ParamVariation6=ParameterName=Database Table Name|VariantValue=Resistors SMD
 ParamDesignator6=L2
-ParamVariation7=ParameterName=Footprint|VariantValue=RESC1608X55N
+ParamVariation7=ParameterName=Description|VariantValue=Resistor - 0.1%
 ParamDesignator7=L2
-ParamVariation8=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0603_Tyco_RN73.pdf
+ParamVariation8=ParameterName=Footprint|VariantValue=RESC1608X55N
 ParamDesignator8=L2
-ParamVariation9=ParameterName=Ibis Model|VariantValue=
+ParamVariation9=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0603_Tyco_RN73.pdf
 ParamDesignator9=L2
-ParamVariation10=ParameterName=LatestRevisionDate|VariantValue=13.03.2008
+ParamVariation10=ParameterName=Ibis Model|VariantValue=
 ParamDesignator10=L2
-ParamVariation11=ParameterName=Library Reference|VariantValue=R0603_10R_0.1%_0.063W_10PPM
+ParamVariation11=ParameterName=LatestRevisionDate|VariantValue=13.03.2008
 ParamDesignator11=L2
-ParamVariation12=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamVariation12=ParameterName=Library Reference|VariantValue=R0603_10R_0.1%_0.063W_10PPM
 ParamDesignator12=L2
-ParamVariation13=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.5mm
+ParamVariation13=ParameterName=Manufacturer|VariantValue=GENERIC
 ParamDesignator13=L2
-ParamVariation14=ParameterName=Manufacturer1 Example|VariantValue=TYCO HOLSWORTHY
+ParamVariation14=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.5mm
 ParamDesignator14=L2
-ParamVariation15=ParameterName=Manufacturer1 Part Number|VariantValue=RN73C1J10RBTDF
+ParamVariation15=ParameterName=Manufacturer1 Example|VariantValue=TYCO HOLSWORTHY
 ParamDesignator15=L2
-ParamVariation16=ParameterName=Manufacturer Part Number|VariantValue=R0603_10R_0.1%_0.063W_10PPM
+ParamVariation16=ParameterName=Manufacturer1 Part Number|VariantValue=RN73C1J10RBTDF
 ParamDesignator16=L2
-ParamVariation17=ParameterName=Mounted|VariantValue=Yes
+ParamVariation17=ParameterName=Manufacturer Part Number|VariantValue=R0603_10R_0.1%_0.063W_10PPM
 ParamDesignator17=L2
-ParamVariation18=ParameterName=Part Description|VariantValue=Thin Film Chip Resistor
+ParamVariation18=ParameterName=Mounted|VariantValue=Yes
 ParamDesignator18=L2
-ParamVariation19=ParameterName=Part Number|VariantValue=R0603_10R_0.1%_0.063W_10PPM
+ParamVariation19=ParameterName=Part Description|VariantValue=Thin Film Chip Resistor
 ParamDesignator19=L2
-ParamVariation20=ParameterName=PCB3D|VariantValue=
+ParamVariation20=ParameterName=Part Number|VariantValue=R0603_10R_0.1%_0.063W_10PPM
 ParamDesignator20=L2
-ParamVariation21=ParameterName=Pin Count|VariantValue=2
+ParamVariation21=ParameterName=PCB3D|VariantValue=
 ParamDesignator21=L2
-ParamVariation22=ParameterName=Pin Info|VariantValue=
+ParamVariation22=ParameterName=Pin Count|VariantValue=2
 ParamDesignator22=L2
-ParamVariation23=ParameterName=Power|VariantValue=0.063W
+ParamVariation23=ParameterName=Pin Info|VariantValue=
 ParamDesignator23=L2
-ParamVariation24=ParameterName=PressFit|VariantValue=No
+ParamVariation24=ParameterName=Power|VariantValue=0.063W
 ParamDesignator24=L2
-ParamVariation25=ParameterName=Sense|VariantValue=No
+ParamVariation25=ParameterName=PressFit|VariantValue=No
 ParamDesignator25=L2
-ParamVariation26=ParameterName=Signal Integrity|VariantValue=
+ParamVariation26=ParameterName=Sense|VariantValue=No
 ParamDesignator26=L2
-ParamVariation27=ParameterName=Simulation|VariantValue=
+ParamVariation27=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator27=L2
-ParamVariation28=ParameterName=SMD|VariantValue=Yes
+ParamVariation28=ParameterName=Simulation|VariantValue=
 ParamDesignator28=L2
-ParamVariation29=ParameterName=Socket|VariantValue=No
+ParamVariation29=ParameterName=SMD|VariantValue=Yes
 ParamDesignator29=L2
-ParamVariation30=ParameterName=Status|VariantValue=Not Recommended
+ParamVariation30=ParameterName=Socket|VariantValue=No
 ParamDesignator30=L2
-ParamVariation31=ParameterName=TC|VariantValue=±10ppm
+ParamVariation31=ParameterName=Status|VariantValue=Not Recommended
 ParamDesignator31=L2
-ParamVariation32=ParameterName=Tolerance|VariantValue=±0.1%
+ParamVariation32=ParameterName=TC|VariantValue=±10ppm
 ParamDesignator32=L2
-ParamVariation33=ParameterName=Value|VariantValue=10
+ParamVariation33=ParameterName=Tolerance|VariantValue=±0.1%
 ParamDesignator33=L2
-ParamVariation34=ParameterName=Comment|VariantValue==Value
+ParamVariation34=ParameterName=Value|VariantValue=10
 ParamDesignator34=L2
-Variation19=Designator=L1|UniqueId=\AASWHQKE\FDTUKJIG|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Libraries\cernlib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0603_10R_0.1%_0.063W_10PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC1608X55N|AltLibLink_IsSameFootprint=False
-ParamVariation35=ParameterName=Case|VariantValue=0603
+Variation18=Designator=L1|UniqueId=\AASWHQKE\FDTUKJIG|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Libraries\cernlib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0603_10R_0.1%_0.063W_10PPM|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC1608X55N|AltLibLink_IsSameFootprint=False
+ParamVariation35=ParameterName=Comment|VariantValue==Value
 ParamDesignator35=L1
-ParamVariation36=ParameterName=Comment|VariantValue==Value
+ParamVariation36=ParameterName=Case|VariantValue=0603
 ParamDesignator36=L1
 ParamVariation37=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator37=L1
@@ -364,6 +346,7 @@ ParamVariation67=ParameterName=Tolerance|VariantValue=±0.1%
 ParamDesignator67=L1
 ParamVariation68=ParameterName=Value|VariantValue=10
 ParamDesignator68=L1
+Variation19=Designator=D3|UniqueId=\IRITJFQU\YEMDDIZN|Kind=1|AlternatePart=
 ParamVariationCount=68
 
 [GeneratedDocument1]
@@ -1116,6 +1099,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=MathWorks
+OutputName15=MathWorks (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Orcad v7 Capture Design
+OutputName16=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD ASCII
+OutputName17=P-CAD ASCII (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=P-CAD V16 Schematic Design
+OutputName18=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1287,6 +1300,7 @@ Type155=1
 Type156=1
 Type157=1
 Type158=1
+Type159=1
 
 [Difference Levels]
 Type1=1
@@ -1375,6 +1389,7 @@ Type83=1
 Type84=1
 Type85=1
 Type86=1
+Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1538,6 +1553,8 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
+Type162=1
+Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWE
